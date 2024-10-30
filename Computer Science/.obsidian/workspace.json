@@ -8,49 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dcbdc3dc5e8f43c9",
+            "id": "0126f7ef0440df7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Databases.md",
+                "file": "Object Oriented Programming/Object Oriented Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databases"
+              "title": "Object Oriented Programming"
             }
           },
           {
-            "id": "286c69b3eb5369c8",
+            "id": "e49b6e5d237aca0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Types of Databases.md",
+                "file": "Object Oriented Programming/Core Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Types of Databases"
+              "title": "Core Principles"
             }
           },
           {
-            "id": "6eb028382e5abad5",
+            "id": "f4c50d4237c6e766",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/SQL Basics.md",
+                "file": "Object Oriented Programming/Design Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL Basics"
+              "title": "Design Principles"
+            }
+          },
+          {
+            "id": "1373b026c30bc6f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Object Oriented Programming/Interfaces vs. Abstract Classes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interfaces vs. Abstract Classes"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/SQL Basics.md",
+                "file": "Object Oriented Programming/Interfaces vs. Abstract Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SQL Basics"
+              "title": "Backlinks for Interfaces vs. Abstract Classes"
             }
           },
           {
@@ -190,17 +204,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6eb028382e5abad5",
+  "active": "1373b026c30bc6f6",
   "lastOpenFiles": [
-    "Databases/Types of Databases.md",
+    "Object Oriented Programming/Design Principles.md",
+    "Object Oriented Programming/Interfaces vs. Abstract Classes.md",
+    "Object Oriented Programming/Object Oriented Programming.md",
+    "Object Oriented Programming/Core Principles.md",
     "Databases/Databases.md",
+    "Databases/Types of Databases.md",
     "Databases/SQL Basics.md",
     "Object Oriented Programming/Untitled.canvas",
-    "Object Oriented Programming/Object Oriented Programming.md",
-    "Object Oriented Programming/Interfaces vs. Abstract Classes.md",
-    "Object Oriented Programming/Design Principles.md",
     "Object Oriented Programming/Design Patterns.md",
-    "Object Oriented Programming/Core Principles.md",
     "Object Oriented Programming/Composition vs. Inheritance.md",
     "Object Oriented Programming/Class Relationship.md",
     "Fundamentals of Programming/Fundamentals of Programming.md",
