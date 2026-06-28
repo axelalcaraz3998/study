@@ -10,6 +10,7 @@
 ## System Design
 ### [[System Design#What is a System Design?|What is a System Design?]]
 ### [[System Design#How to Approach a System Design?|How to Approach a System Design?]]
+### [[System Design#Performance vs Scalability|Performance vs Scalability]]
 ### [[System Design#Latency vs Throughput|Latency vs Throughput]]
 ### [[System Design#Availability vs Consistency|Availability vs Consistency]]
 #### [[System Design#CAP Theorem|CAP Theorem]]

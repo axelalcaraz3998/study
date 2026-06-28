@@ -48,19 +48,9 @@
               "icon": "lucide-file",
               "title": "System Design"
             }
-          },
-          {
-            "id": "0a8a391d1634505b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Data Structures And Algorithms.md",
+                "file": "Notes/System Design.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Structures And Algorithms"
+              "title": "Outline of System Design"
             }
           }
         ],
@@ -222,11 +212,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "592a82870ff3fa02",
+  "active": "1b66abaf05bbd752",
   "lastOpenFiles": [
-    "Notes/System Design.md",
     "Notes/Data Structures And Algorithms.md",
     "Home MOC.md",
+    "Notes/System Design.md",
     "LICENSE.md",
     "Notes/Array.md",
     "Notes/Data Structures.md",
