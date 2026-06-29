@@ -1,0 +1,13 @@
+# [[What is a System Design?]]
+# [[How to Approach a System Design?]]
+# [[Performance vs Scalability]]
+# [[Latency vs Throughput]]
+# [[Availability vs Consistency]]
+## [[CAP Theorem]]
+# [[Consistency Patterns]]
+# [[Availability Patterns]]
+## [[Fail-Over Pattern]]
+## [[Replication Pattern]]
+## [[Availability in Numbers]]
+
+[[Computer Science MOC]]

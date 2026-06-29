@@ -8,49 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b6b005f1cd1fe23",
+            "id": "6fabfe59dd6d62ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home MOC"
-            }
-          },
-          {
-            "id": "592a82870ff3fa02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Data Structures And Algorithms.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Structures And Algorithms"
-            }
-          },
-          {
-            "id": "1b66abaf05bbd752",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/System Design.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "System Design"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Array.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -133,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Array"
+              "title": "Backlinks"
             }
           },
           {
@@ -142,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Array"
+              "title": "Outgoing links"
             }
           },
           {
@@ -185,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/System Design.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of System Design"
+              "title": "Outline"
             }
           }
         ],
@@ -199,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 323.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,15 +176,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b66abaf05bbd752",
+  "active": "6fabfe59dd6d62ac",
   "lastOpenFiles": [
-    "Notes/Data Structures And Algorithms.md",
+    "MOCs/System Design MOC.md",
+    "Notes/Availability in Numbers.md",
+    "Notes/Replication Pattern.md",
+    "Notes/Fail-Over Pattern.md",
+    "Notes/Availability Patterns.md",
+    "Attachments/system-availibility-table.png",
+    "Attachments/multi-leader-replication.png",
+    "Attachments/single-leader-replication.png",
+    "Notes/Availability vs Consistency.md",
+    "Attachments/active-active-pattern.webp",
+    "Attachments/active-passive-pattern.webp",
+    "Notes/CAP Theorem.md",
+    "Notes/Performance vs Scalability.md",
+    "Notes/Consistency Patterns.md",
+    "MOCs/Computer Science MOC.md",
     "Home MOC.md",
-    "Notes/System Design.md",
-    "LICENSE.md",
-    "Notes/Array.md",
-    "Notes/Data Structures.md",
+    "Notes/Latency vs Throughput.md",
+    "Notes/What is a System Design?.md",
+    "Notes/How to Approach a System Design?.md",
+    "MOCs/Data Structures and Algorithms MOC.md",
+    "Notes/Basic Data Structures.md",
+    "Notes/What are Data Structures?.md",
+    "Notes/Hash Table.md",
+    "Notes/Queue.md",
+    "Notes/Stack.md",
     "Notes/Linked List.md",
+    "Notes/Array.md",
+    "MOCs",
+    "Notes/System Design.md",
+    "7.2.1.md",
+    "Notes/Data Structures And Algorithms.md",
+    "LICENSE.md",
     "Attachments/memory-representation-of-array.jpg"
   ]
 }
