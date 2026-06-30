@@ -9,5 +9,9 @@
 ## [[Fail-Over Pattern]]
 ## [[Replication Pattern]]
 ## [[Availability in Numbers]]
+# [[Background Jobs]]
+## [[Event-Driven Triggers]]
+## [[Schedule-Driven Triggers]]
+## [[Returning Job Results]]
 
 [[Computer Science MOC]]

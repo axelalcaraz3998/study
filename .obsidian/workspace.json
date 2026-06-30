@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f80cc22179b14926",
+        "id": "94039c01418a7091",
         "type": "tabs",
         "children": [
           {
-            "id": "6fabfe59dd6d62ac",
+            "id": "5c20872ac1052eca",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/System Design MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "System Design MOC"
             }
           }
         ]
@@ -150,16 +154,27 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MOCs/System Design MOC.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of System Design MOC"
+            }
+          },
+          {
+            "id": "2774b905072f401c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -173,12 +188,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6fabfe59dd6d62ac",
+  "active": "2774b905072f401c",
   "lastOpenFiles": [
     "MOCs/System Design MOC.md",
+    "MOCs/Data Structures and Algorithms MOC.md",
+    "Excalidraw/Drawing 2026-06-29 13.32.25.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-29 13.32.25_0.excalidraw.md",
+    "Excalidraw",
+    "Notes/Background Jobs.md",
+    "Notes/Event-Driven Triggers.md",
+    "Notes/Schedule-Driven Triggers.md",
+    "Notes/Returning Job Results.md",
+    "Home MOC.md",
+    "MOCs/Computer Science MOC.md",
+    "Notes/Consistency Patterns.md",
     "Notes/Availability in Numbers.md",
     "Notes/Replication Pattern.md",
     "Notes/Fail-Over Pattern.md",
@@ -191,25 +219,15 @@
     "Attachments/active-passive-pattern.webp",
     "Notes/CAP Theorem.md",
     "Notes/Performance vs Scalability.md",
-    "Notes/Consistency Patterns.md",
-    "MOCs/Computer Science MOC.md",
-    "Home MOC.md",
     "Notes/Latency vs Throughput.md",
     "Notes/What is a System Design?.md",
     "Notes/How to Approach a System Design?.md",
-    "MOCs/Data Structures and Algorithms MOC.md",
     "Notes/Basic Data Structures.md",
     "Notes/What are Data Structures?.md",
     "Notes/Hash Table.md",
     "Notes/Queue.md",
     "Notes/Stack.md",
-    "Notes/Linked List.md",
-    "Notes/Array.md",
     "MOCs",
-    "Notes/System Design.md",
-    "7.2.1.md",
-    "Notes/Data Structures And Algorithms.md",
-    "LICENSE.md",
     "Attachments/memory-representation-of-array.jpg"
   ]
 }
