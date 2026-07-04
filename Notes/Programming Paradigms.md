@@ -6,6 +6,9 @@ Procedural programming is a programming paradigm that involves implementing the 
 
 See [[Procedural Programming]]
 # Functional Programming
+Functional programming is the process of building software by composing pure functions, avoiding shared state, mutable data, and side effects.
+
+See [[Functional Programming]]
 # Object-Oriented Programming
 # References
 ## Articles
