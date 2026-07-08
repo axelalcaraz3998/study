@@ -4,81 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4f8d494bc70f939d",
+        "id": "358a312342efa64c",
         "type": "tabs",
         "children": [
           {
-            "id": "1d9fbdb7a9099ba1",
+            "id": "889be74d15072af3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/Software Design and Architecture MOC.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Software Design and Architecture MOC"
-            }
-          },
-          {
-            "id": "17c4b3e03cb4a226",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Programming Paradigms.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Programming Paradigms"
-            }
-          },
-          {
-            "id": "21b53e88727d7d16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Procedural Programming.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Procedural Programming"
-            }
-          },
-          {
-            "id": "847fad662436f9c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Functional Programming.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Functional Programming"
-            }
-          },
-          {
-            "id": "b9699ae562fc9335",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Object-Oriented Programming.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Object-Oriented Programming"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Functional Programming.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Functional Programming"
+              "title": "Outline"
             }
           },
           {
@@ -250,35 +188,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2774b905072f401c",
+  "active": "889be74d15072af3",
   "lastOpenFiles": [
+    "Notes/SOLID Principles.md",
+    "Notes/Design Principles.md",
     "MOCs/Software Design and Architecture MOC.md",
-    "Notes/Programming Paradigms.md",
-    "Notes/Procedural Programming.md",
-    "Notes/Functional Programming.md",
     "Notes/Object-Oriented Programming.md",
-    "Notes/Returning Job Results.md",
-    "Notes/How to Approach a System Design?.md",
-    "Notes/Clean Code Principles.md",
-    "Notes/Background Jobs.md",
-    "Notes/Availability Patterns.md",
-    "Notes/Availability in Numbers.md",
-    "Notes/Availability vs Consistency.md",
-    "Notes/Consistency Patterns.md",
-    "Notes/CAP Theorem.md",
-    "Notes/Event-Driven Triggers.md",
-    "Notes/Latency vs Throughput.md",
-    "Notes/Performance vs Scalability.md",
-    "Notes/Stack.md",
     "MOCs/Computer Science MOC.md",
+    "Home MOC.md",
     "MOCs/Data Structures and Algorithms MOC.md",
     "MOCs/System Design MOC.md",
-    "Home MOC.md",
-    "Untitled.md",
-    "Excalidraw/Drawing 2026-06-29 13.32.25.excalidraw.md",
-    "Excalidraw/Drawing 2026-06-29 13.32.25_0.excalidraw.md",
-    "Excalidraw",
+    "Notes/Background Jobs.md",
+    "Notes/Returning Job Results.md",
     "Notes/Schedule-Driven Triggers.md",
+    "Notes/Event-Driven Triggers.md",
+    "Notes/Availability Patterns.md",
+    "Notes/Availability in Numbers.md",
+    "Notes/Replication Pattern.md",
+    "Notes/Fail-Over Pattern.md",
+    "Notes/Consistency Patterns.md",
+    "Notes/CAP Theorem.md",
+    "Notes/Availability vs Consistency.md",
+    "Notes/Basic Data Structures.md",
+    "Notes/What are Data Structures?.md",
+    "Notes/Programming Paradigms.md",
+    "Notes/Procedural Programming.md",
+    "Notes/Array.md",
+    "Notes/Functional Programming.md",
+    "Notes/How to Approach a System Design?.md",
+    "Excalidraw",
     "Attachments/system-availibility-table.png",
     "Attachments/multi-leader-replication.png",
     "Attachments/single-leader-replication.png",

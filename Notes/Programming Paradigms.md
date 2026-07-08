@@ -10,6 +10,9 @@ Functional programming is the process of building software by composing pure fun
 
 See [[Functional Programming]]
 # Object-Oriented Programming
+Object-oriented programming is a programming paradigm based on the concept of objects, which are data structures that contain data, in the form of fields (or attributes), and code, in the form of procedures (or methods).
+
+See [[Object-Oriented Programming]]
 # References
 ## Articles
 - [Programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
