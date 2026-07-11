@@ -4,20 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "358a312342efa64c",
+        "id": "08823729a99fce50",
         "type": "tabs",
         "children": [
           {
-            "id": "889be74d15072af3",
+            "id": "df13676c6f9be3de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/Data Structures and Algorithms MOC.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Data Structures and Algorithms MOC"
+            }
+          },
+          {
+            "id": "2997b638b681fd8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Linear Search.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear Search"
+            }
+          },
+          {
+            "id": "2f076b18fac3af90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Binary Search.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Binary Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,11 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Linear Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Linear Search"
             }
           },
           {
@@ -150,12 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/Linear Search.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Linear Search"
             }
           },
           {
@@ -188,34 +223,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "889be74d15072af3",
+  "active": "2774b905072f401c",
   "lastOpenFiles": [
-    "Notes/SOLID Principles.md",
-    "Notes/Design Principles.md",
-    "MOCs/Software Design and Architecture MOC.md",
-    "Notes/Object-Oriented Programming.md",
+    "Notes/Binary Search.md",
+    "Notes/Linear Search.md",
+    "MOCs/Data Structures and Algorithms MOC.md",
     "MOCs/Computer Science MOC.md",
     "Home MOC.md",
-    "MOCs/Data Structures and Algorithms MOC.md",
+    "MOCs/Software Design and Architecture MOC.md",
     "MOCs/System Design MOC.md",
-    "Notes/Background Jobs.md",
-    "Notes/Returning Job Results.md",
-    "Notes/Schedule-Driven Triggers.md",
-    "Notes/Event-Driven Triggers.md",
     "Notes/Availability Patterns.md",
-    "Notes/Availability in Numbers.md",
     "Notes/Replication Pattern.md",
     "Notes/Fail-Over Pattern.md",
-    "Notes/Consistency Patterns.md",
-    "Notes/CAP Theorem.md",
     "Notes/Availability vs Consistency.md",
-    "Notes/Basic Data Structures.md",
-    "Notes/What are Data Structures?.md",
-    "Notes/Programming Paradigms.md",
-    "Notes/Procedural Programming.md",
+    "Notes/CAP Theorem.md",
+    "MOCs/Databases MOC.md",
     "Notes/Array.md",
-    "Notes/Functional Programming.md",
-    "Notes/How to Approach a System Design?.md",
+    "Notes/Basic Data Structures.md",
+    "Notes/Hash Table.md",
+    "Notes/Queue.md",
+    "Notes/Stack.md",
+    "Notes/Linked List.md",
+    "Attachments/three-dimensional-array.webp",
+    "Attachments/two-dimensional-array.webp",
+    "Attachments/one-dimensional-array.webp",
+    "Notes/Database Denormalization.md",
+    "Notes/Fifth Normal Form (5NF).md",
+    "Notes/Fourth Normal Form (4NF).md",
+    "Notes/Boyce-Codd Normal Form (BCNF).md",
+    "Notes/Third Normal Form (3NF).md",
+    "Notes/Second Normal Form (2NF).md",
+    "Notes/First Normal Form (1NF).md",
+    "Untitled.base",
     "Excalidraw",
     "Attachments/system-availibility-table.png",
     "Attachments/multi-leader-replication.png",

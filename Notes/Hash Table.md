@@ -1,3 +1,3 @@
-Tags: #ComputerScience #DSA #Java #Python #JavaScript 
+Tags: #ComputerScience #DSA 
 
 [[Basic Data Structures]]
