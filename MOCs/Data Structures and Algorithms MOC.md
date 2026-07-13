@@ -12,5 +12,10 @@
 ### [[Binary Search]]
 ## Recursion
 # Problem Solving Techniques
+## [[Prefix Sum]]
+## [[Two Pointers]]
+## [[Sliding Window]]
+## [[Top K Elements]]
+## [[Fast and Slow Pointers]]
 
 [[Computer Science MOC]]
