@@ -54,7 +54,7 @@ function search(arr, n, x) {
 	return -1;
 }
 ```
-# Time and Space Complexity
+# Complexity Analysis
 ## Time Complexity
 - **Best Case**: In the best case, the key might be present at first index. So the best case complexity is `O(1)`.
 - **Worst Case**: In the worst case, the key might be present at the last index. So the worst-case complexity is `O(n)`.
