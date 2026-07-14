@@ -5,12 +5,12 @@
 ## [[Stack]]
 ## [[Queue]]
 ## [[Hash Table]]
-# Common Algorithms
-## Sorting Algorithms
-## Search Algorithms
-### [[Linear Search]]
-### [[Binary Search]]
-## Recursion
+# [[Algorithmic Complexity]]
+# [[Asymptotic Notation]]
+# Sorting Algorithms
+# Search Algorithms
+## [[Linear Search]]
+## [[Binary Search]]
 # Problem Solving Techniques
 ## [[Prefix Sum]]
 ## [[Two Pointers]]

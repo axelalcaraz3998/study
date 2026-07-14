@@ -1,20 +1,6 @@
-Tags: #ComputerScience #DSA #CLanguage #Java #Python #JavaScript 
+Tags: #ComputerScience #DSA #Java #Python #JavaScript 
 
 In linear search, we iterate over all elements of the array and check if the current element is equal to the target element. If we find any element to be equal to the target element, we return the index, otherwise we return -1 as the element was not found.
-# C Language
-```c
-int search(int arr[], int n, int x) {
-	// Iterate over the array to find the key
-	for (int i = 0; i < n; i++) {
-		if (arr[i] == x) {
-			return i;
-		}
-	}
-	
-	// If key is not found return -1
-	return -1;
-}
-```
 # Java
 ```java
 private int search(int arr[], int n, int x) {

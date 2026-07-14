@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "08823729a99fce50",
+        "id": "4da08038bc4d55ba",
         "type": "tabs",
         "children": [
           {
-            "id": "df13676c6f9be3de",
+            "id": "bd7ae664213ba34a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "Data Structures and Algorithms MOC"
             }
-          },
-          {
-            "id": "48778708ccf6bc7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Prefix Sum.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Prefix Sum"
-            }
-          },
-          {
-            "id": "92e74b45f1ab5a6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Two Pointers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Two Pointers"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Prefix Sum.md",
+                "file": "MOCs/Data Structures and Algorithms MOC.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prefix Sum"
+              "title": "Outline of Data Structures and Algorithms MOC"
             }
           },
           {
@@ -223,17 +194,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f93bf985cc58a00b",
+  "active": "bd7ae664213ba34a",
   "lastOpenFiles": [
-    "Notes/Two Pointers.md",
-    "Notes/Prefix Sum.md",
     "MOCs/Data Structures and Algorithms MOC.md",
-    "Notes/Linear Search.md",
-    "Attachments/prefix-sum.webp",
-    "Notes/Binary Search.md",
-    "Notes/Sliding Window.md",
     "Notes/Top K Elements.md",
+    "www.youtube.com/watch?v=6_v6OoxvMOE.md",
+    "www.youtube.com",
+    "Notes/Sliding Window.md",
+    "Notes/Algorithmic Complexity.md",
+    "Notes/Asymptotic Notation.md",
+    "Attachments/array-sorting-algorithms.png",
+    "Attachments/common-data-structure-operations.png",
+    "Attachments/big-o-cheat-sheet.png",
+    "Notes/First Normal Form (1NF).md",
+    "Notes/Prefix Sum.md",
+    "Notes/Two Pointers.md",
     "Notes/Fast and Slow Pointers.md",
+    "Notes/Binary Search.md",
+    "Notes/Linear Search.md",
+    "Attachments/sliding-window.webp",
+    "Attachments/sliding-window-2.jpg",
+    "Attachments/sliding-window-3.jpg",
+    "Attachments/sliding-window-1.jpg",
+    "Attachments/prefix-sum.webp",
     "Attachments/binary-search.webp",
     "MOCs/Computer Science MOC.md",
     "Home MOC.md",
@@ -248,20 +231,9 @@
     "Notes/Array.md",
     "Notes/Basic Data Structures.md",
     "Notes/Hash Table.md",
-    "Notes/Queue.md",
-    "Notes/Stack.md",
-    "Notes/Linked List.md",
     "Attachments/three-dimensional-array.webp",
-    "Attachments/two-dimensional-array.webp",
-    "Attachments/one-dimensional-array.webp",
-    "Notes/Database Denormalization.md",
     "Untitled.base",
     "Excalidraw",
-    "Attachments/system-availibility-table.png",
-    "Attachments/multi-leader-replication.png",
-    "Attachments/single-leader-replication.png",
-    "Attachments/active-active-pattern.webp",
-    "Attachments/active-passive-pattern.webp",
     "MOCs"
   ]
 }

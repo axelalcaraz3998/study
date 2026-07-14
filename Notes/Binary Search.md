@@ -1,4 +1,4 @@
-Tags: #ComputerScience #DSA #CLanguage #Java #Python #JavaScript 
+Tags: #ComputerScience #DSA #Java #Python #JavaScript 
 
 Binary search is a searching algorithm that operates on a sorted or monotonic search space, repeatedly dividing it into halves to find a target value or optimal answer.
 - Divide the search space into two halves by finding the middle index.
@@ -9,28 +9,6 @@ Binary search is a searching algorithm that operates on a sorted or monotonic se
 	- If the key is larger than the middle, then the right side is used for next search.
 - The process is continued until the key is found or the total search space is exhausted.
 ![[binary-search.webp]]
-# C Language
-```c
-int binarySearch(int arr[], int n, int x) {
-	int low = 0;
-	int high = n - 1;
-	while (low <= high) {
-		int mid = low + (high - low) / 2;
-		
-		if (arr[mid] == x) {
-			return mid;
-		}
-		
-		if (arr[mid] < x) {
-			low = mid + 1;
-		} else {
-			high = mid - 1;
-		}
-	}
-	
-	return -1;
-}
-```
 # Java
 ```java
 private int binarySearch(int arr[], int n, int x) {
