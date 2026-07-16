@@ -1,6 +1,7 @@
 # [[What are Data Structures?]]
 # [[Basic Data Structures]]
 ## [[Array]]
+### [[Array Implementation]]
 ## [[Linked List]]
 ## [[Stack]]
 ## [[Queue]]
