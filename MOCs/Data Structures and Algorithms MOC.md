@@ -3,6 +3,7 @@
 ## [[Array]]
 ### [[Array Implementation]]
 ## [[Linked List]]
+### [[Linked List Implementation]]
 ## [[Stack]]
 ## [[Queue]]
 ## [[Hash Table]]
