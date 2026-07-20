@@ -76,8 +76,19 @@
               "icon": "lucide-file",
               "title": "Linked List Implementation"
             }
+          },
+          {
+            "id": "2b8cb88e8c5a88c2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -250,11 +261,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dc728a0a5852edf",
+  "active": "f93bf985cc58a00b",
   "lastOpenFiles": [
+    "MOCs/Data Structures and Algorithms MOC.md",
     "Notes/Linked List Implementation.md",
     "Notes/Linked List.md",
-    "MOCs/Data Structures and Algorithms MOC.md",
     "Notes/Array Implementation.md",
     "Notes/Array.md",
     "Notes/Basic Data Structures.md",
