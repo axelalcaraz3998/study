@@ -11,29 +11,41 @@ Binary search is a searching algorithm that operates on a sorted or monotonic se
 ![[binary-search.webp]]
 # Java
 ```java
-private int binarySearch(int arr[], int n, int x) {
-	int low = 0;
-	int high = n - 1;
-	while (low <= high) {
-		int mid = low + (high - low) / 2;
-		
-		if (arr[mid] == x) {
-			return mid;
+public class Main {
+
+	private static int binarySearch(int arr[], int n, int x) {
+		int low = 0;
+		int high = n - 1;
+		while (low <= high) {
+			int mid = low + (high - low) / 2;
+			
+			if (arr[mid] == x) {
+				return mid;
+			}
+			
+			if (arr[mid] < x) {
+				low = mid + 1;
+			} else {
+				high = mid - 1;
+			}
 		}
 		
-		if (arr[mid] < x) {
-			low = mid + 1;
-		} else {
-			high = mid - 1;
-		}
+		return -1;
 	}
-	
-	return -1;
+
+	public static void main(String[] args) {
+		int[] arr = { -5, -2, 0, 1, 2, 4, 5, 6, 7, 10 };
+		int n = arr.length;
+		int target = 4;
+		
+		int result = binarySearch(arr, n, target);
+	}
+
 }
 ```
 # Python
 ```python
-def binarySearch(arr, n, x):
+def binary_search(arr, n, x):
 	low = 0
 	high = n - 1
 	while low <= high:
@@ -47,15 +59,20 @@ def binarySearch(arr, n, x):
 			high = mid -1
 			
 	return -1
+	
+arr = [-5, -2, 0, 1, 2, 4, 5, 6, 7, 10]
+n = len(arr)
+target = 4
+
+result = binary_search(arr, n, target)
 ```
 # JavaScript
 ```js
 function binarySearch(arr, n, x) {
 	let low = 0;
 	let high = n - 1;
-	let mid;
 	while (low <= high) {
-		mid = low + (high - low) / 2;
+		let mid = Math.floor(low + (high - low) / 2);
 		
 		if (arr[mid] == x) {
 			return mid;
@@ -70,6 +87,12 @@ function binarySearch(arr, n, x) {
 	
 	return -1;	
 }
+
+let = arr = [-5, -2, 0, 1, 2, 4, 5, 6, 7, 10];
+let n = arr.length;
+let target = 4;
+
+let result = binarySearch(arr, n, target);
 ```
 # Complexity Analysis
 ## Time Complexity

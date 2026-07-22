@@ -42,7 +42,12 @@ At first glance, arrays and linked list seem similar, but they differ significan
 - **Higher Overhead**: Linked lists have a higher overhead compared to arrays, as each node in a linked list requires extra memory to store the reference to the next node.
 - **Cache Inefficiency**: Linked lists are cache-inefficient because the memory is not contiguous. This means that when you traverse a linked list, you are not likely to get the data you need in the cache, leading to cache misses and slow performance.
 # Linked List Implementation
-See [[Linked List]].
+## Singly Linked List
+See [[Singly Linked List Implementation]].
+## Doubly Linked List
+See [[Doubly Linked List Implementation]].
+## Circular Linked List
+See [[Circular Linked List Implementation]].
 # References
 ## Articles
 - [Linked List Data Structure](https://www.geeksforgeeks.org/dsa/linked-list-data-structure/)

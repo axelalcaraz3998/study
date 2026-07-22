@@ -1,120 +1,341 @@
 Tags: #ComputerScience #DSA #Java #Python #JavaScript 
 # Java
-## Array Declaration
+## Traversal
 ```java
-int size = 5;
-int[] array = new int[size];
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 5 };
+		
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+		System.out.println("");
+	}
+
+}
 ```
-## Array Initialization
+## Insertion at Beginning
 ```java
-int[] array = new int[]{ 1, 2, 3 };
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 0 };
+		int n = arr.length;
+		int x = 5;
+		
+		// Shift elements to the right
+		for (int i = n - 2; i >= 0; i--) {
+			arr[i + 1] = arr[i];
+		}
+		// Insert new elment at the beginning
+		arr[0] = x;
+	}
+
+}
 ```
-## Access Array Element
+## Insertion at Given Index
 ```java
-int[] array = new int[]{ 2, 3, 8, 11, 14 };
-// Output: 8
-System.out.println(array[2]);
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 0 };
+		int n = arr.length;
+		int x = 5;
+		int idx = 2;
+		
+		// Shift elements to the right
+		for (int i = n - 2; i >= idx; i--) {
+			arr[i + 1] = arr[i];
+		}
+		// Insert new elment at given index
+		arr[idx] = x;
+	}
+
+}
 ```
-## Update Array Element
+## Insertion at End
 ```java
-int[] array = new int[]{ 2, 3, 8, 11, 14 };
-// Array is now: [2, 90, 8, 11, 14]
-array[1] = 90;
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 0 };
+		int n = arr.length;
+		int x = 5;
+		
+		// Insert new elment at the end
+		arr[n - 1] = x;
+	}
+
+}
 ```
-## Traverse Array
+## Deletion From Beginning
 ```java
-int[] array = new int[]{ 2, 4, 8, 16, 32, 64 };
-for (int i = 0; i < array.length; i++) {
-	// Output: 2, 4, 8, 16, 32, 64
-	System.out.print(array[i] + " ");
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 5 };
+		int n = arr.length;
+		
+		// Shift elements to the left
+		for (int i = 1; i < n; i++) {
+			arr[i - 1] = arr[i];
+		}
+		// Upate array size
+		n = n - 1;
+	}
+
+}
+```
+## Deletion of Given Index
+```java
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 5 };
+		int n = arr.length;
+		int idx = 2;
+		
+		// Shift elements to the left from given index
+		for (int i = idx; i < n - 1; i++) {
+			arr[i] = arr[i + 1];
+		}
+		// Upate array size
+		n = n - 1;
+	}
+
+}
+```
+## Deletion of Given Element
+```java
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 5 };
+		int n = arr.length;
+		int ele = 3;
+		
+		boolean found = false;
+		for (int i = 0; i < n; i++) {
+			// If element has been found shift elements to the left
+			if (found == true) {
+				arr[i - 1] = arr[i];
+			} else if (arr[i] == ele) {
+				found = true;
+			}
+		}
+		
+		if (found == true) {
+			n = n - 1;
+		}
+	}
+
+}
+```
+## Deletion From End
+```java
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 5 };
+		int n = arr.length;
+		
+		// Upate array size
+		n = n - 1;
+	}
+
 }
 ```
 # Python
-## Array Declaration
+## Traversal
 ```python
-# Empty list
-my_list = []
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
 
-# List of fixed size
-size = 5
-my_list_fixed_size = [None] * size
+for i in range(n):
+	print(arr[i], end=" ")
+print("")
 ```
-## Array Initialization
+## Insertion at Beginning
 ```python
-my_list = [1, 2, 3]
+arr = [1, 2, 3, 4, 0]
+n = len(arr)
+x = 5
+
+# Shift elements to the right
+for i in range(n - 2, -1, -1):
+	arr[i + 1] = arr[i]
+# Insert new element at the beginning
+arr[0] = x
 ```
-## Access Array Element
+## Insertion at Given Index
 ```python
-my_list = [2, 3, 8, 11, 14]
-# Output: 8
-print(my_list[2])
+arr = [1, 2, 3, 4, 0]
+n = len(arr)
+x = 5
+idx = 2
+
+# Shift elements to the right
+for i in range(n - 2, idx - 1, -1):
+	arr[i + 1] = arr[i]
+# Insert new element at given index
+arr[idx] = x
 ```
-## Update Array Element
+## Insertion at End
 ```python
-my_list = [2, 3, 8, 11, 14]
-# Array is now: [2, 90, 8, 11, 14]
-my_list[1] = 90 
+arr = [1, 2, 3, 4, 0]
+n = len(arr)
+x = 5
+
+# Insert new element at the end
+arr[n - 1] = x
 ```
-## Adding Elements
+## Deletion From Beginning
 ```python
-my_list = [2, 3, 8, 11, 14]
-# Array is now: [2, 3, 8, 11, 14, 16]
-my_list.append(16)
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
+
+# Shift elements to left
+for i in range(1, n):
+	arr[i - 1] = arr[i]
+# Update array size
+n = n -1
 ```
-## Removing Elements
+## Deletion of Given Index
 ```python
-my_list = [2, 3, 8, 11, 14]
-# Array is now: [2, 3, 11, 14]
-my_list.remove(8)
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
+idx = 2
+
+# Shift elements to left from given index
+for i in range(idx, n - 1):
+	arr[i] = arr[i + 1]
+# Update array size
+n = n -1
 ```
-## Traverse Array
+## Deletion of Given Element
 ```python
-my_list = [2, 4, 8, 16, 32, 64]
-for item in my_list:
-	# Output: 2, 4, 8, 16, 32, 64
-	print(item)
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
+ele = 3
+
+found = False
+for i in range(n):
+	# If element has been found shift elements to the left
+	if (found is True):
+		arr[i - 1] = arr[i]
+	elif arr[i] is ele:
+		found = True
+
+if found is True:
+	n = n - 1
+```
+## Deletion From End
+```python
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
+
+# Update array size
+n = n -1
 ```
 # JavaScript
-## Array Declaration
+## Traversal
 ```js
-// Emtpy array
-let array = [];
-```
-## Array Initialization
-```js
-let array = [1, 2, 3];
-```
-## Access Array Element
-```js
-let array = [2, 3, 8, 11, 14];
-// Output: 8
-console.log(array[2]);
-```
-## Update Array Element
-```js
-let array = [2, 3, 8, 11, 14];
-// Array is now: [2, 90, 8, 11, 14]
-array[1] = 90;
-```
-## Adding Elements
-```js
-let array = [2, 3, 8, 11, 14];
-// Array is now: [2, 3, 8, 11, 14, 16]
-array.push(16);
-```
-## Removing Elements
-```js
-let array = [2, 3, 8, 11, 14];
-// Array is now: [2, 3, 8, 11]
-array.pop();
-```
-## Traverse Array
-```js
-let array = [2, 4, 8, 16, 32, 64];
-for (int i = 0; i < array.length; i++) {
-	// Output: 2, 4, 8, 16, 32, 64
-	console.log(array[i]);
+let arr = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr.length; i++) {
+	process.stdout.write(arr[i] + " ");
 }
+console.log("");
+```
+## Insertion at Beginning
+```js
+let arr = [1, 2, 3, 4, 0];
+let n = arr.length;
+let x = 5;
+
+// Shift elements to the right
+for (let i = n - 2; i >= 0; i--) {
+	arr[i + 1] = arr[i];
+}
+// Insert new elment at the beginning
+arr[0] = x;
+```
+## Insertion at Given Index
+```js
+let arr = [1, 2, 3, 4, 0];
+let n = arr.length;
+let x = 5;
+let idx = 2;
+
+// Shift elements to the right
+for (let i = n - 2; i >= idx; i--) {
+	arr[i + 1] = arr[i];
+}
+// Insert new elment at given index
+arr[idx] = x;
+```
+## Insertion at End
+```js
+let arr = [1, 2, 3, 4, 0];
+let n = arr.length;
+let x = 5;
+
+// Insert new elment at the end
+arr[n - 1] = x;
+```
+## Deletion From Beginning
+```js
+let arr = [1, 2, 3, 4, 5];
+let n = arr.length;
+
+// Shift elements to the left
+for (let i = 1; i < n; i++) {
+	arr[i - 1] = arr[i];
+}
+// Update array size
+n = n - 1;
+```
+## Deletion of Given Index
+```js
+let arr = [1, 2, 3, 4, 5];
+let n = arr.length;
+let idx = 2;
+
+// Shift elements to the left from given index
+for (let i = idx; i < n - 1; i++) {
+	arr[i] = arr[i + 1];
+}
+// Update array size
+n = n - 1;
+```
+## Deletion of Given Element
+```js
+let arr = [1, 2, 3, 4, 5];
+let n = arr.length;
+let ele = 3;
+
+let found = false;
+for (let i = 0; i < n; i++) {
+	// If element has been found shift elements to the left
+	if (found == true) {
+		arr[i - 1] = arr[i];
+	} else if (arr[i] == ele) {
+		found = true;
+	}
+}
+
+if (found == true) {
+	n = n - 1;
+}
+```
+## Deletion From End
+```js
+let arr = [1, 2, 3, 4, 5];
+let n = arr.length;
+
+// Update array size
+n = n - 1;
 ```
 # References
 ## Articles
