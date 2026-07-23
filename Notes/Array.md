@@ -33,7 +33,7 @@ A 3D multidimensional array contains three dimensions, so it can be considered a
 - **Fixed Size**: Arrays have a fixed size set at creation. Expanding an array requires creating a new one and copying elements, which is time-consuming and memory-intensive. Even dynamic size arrays internally use fixed-size memory allocation and de-allocation.
 - **Memory Allocation Issues**: Allocating large arrays can cause memory exhaustion, leading to crashes, specially on systems with limited resources.
 - **Insertion and Deletion Challenges**: Adding or removing elements requires shifting subsequent elements, making these operations inefficient.
-# Array Implementation
+# Implementation
 See [[Array Implementation]].
 # References
 ## Articles

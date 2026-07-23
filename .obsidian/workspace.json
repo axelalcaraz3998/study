@@ -22,48 +22,63 @@
             }
           },
           {
-            "id": "dbd37f33fb52ff39",
+            "id": "c6d2b97102725d71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Linked List.md",
+                "file": "Notes/Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linked List"
+              "title": "Stack"
             }
           },
           {
-            "id": "b62f24d8262d84c5",
+            "id": "336e46b1473ab7b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Singly Linked List Implementation.md",
+                "file": "Notes/Stack Implementation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Singly Linked List Implementation"
+              "title": "Stack Implementation"
             }
           },
           {
-            "id": "b17c0e6650a5aeff",
+            "id": "e7685545cce00fe6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Doubly Linked List Implementation.md",
+                "file": "Notes/Queue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Doubly Linked List Implementation"
+              "title": "Queue"
+            }
+          },
+          {
+            "id": "803aea2e64d69c6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Queue Implementation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Queue Implementation"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOCs/Data Structures and Algorithms MOC.md",
+                "file": "Notes/Stack Implementation.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Structures and Algorithms MOC"
+              "title": "Outline of Stack Implementation"
             }
           },
           {
@@ -236,17 +251,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b53597d27472c78",
+  "active": "336e46b1473ab7b1",
   "lastOpenFiles": [
-    "Notes/Linked List.md",
-    "Notes/Singly Linked List Implementation.md",
-    "Notes/Doubly Linked List Implementation.md",
+    "Notes/Queue Implementation.md",
+    "Notes/Queue.md",
+    "Notes/Stack Implementation.md",
+    "Notes/Stack.md",
     "MOCs/Data Structures and Algorithms MOC.md",
-    "Notes/Array Implementation.md",
-    "Notes/Circular Linked List Implementation.md",
     "Notes/Array.md",
     "Notes/Binary Search.md",
     "Notes/Linear Search.md",
+    "Attachments/stack.webp",
+    "Notes/Linked List.md",
+    "Notes/Doubly Linked List Implementation.md",
+    "Notes/Array Implementation.md",
+    "Notes/Singly Linked List Implementation.md",
+    "Notes/Circular Linked List Implementation.md",
     "Notes/Asymptotic Notation.md",
     "Notes/Algorithmic Complexity.md",
     "Notes/Linked List Implementation.md",
@@ -265,17 +285,12 @@
     "Attachments/linked-list.webp",
     "Excalidraw/Drawing 2026-07-15 20.19.10.excalidraw.md",
     "Notes/Top K Elements.md",
-    "www.youtube.com/watch?v=6_v6OoxvMOE.md",
     "www.youtube.com",
     "Attachments/array-sorting-algorithms.png",
     "Attachments/common-data-structure-operations.png",
     "Attachments/big-o-cheat-sheet.png",
-    "Notes/First Normal Form (1NF).md",
-    "Notes/Prefix Sum.md",
-    "Notes/Two Pointers.md",
     "Attachments/sliding-window.webp",
     "Attachments/sliding-window-2.jpg",
-    "Attachments/sliding-window-3.jpg",
     "Untitled.base",
     "MOCs"
   ]

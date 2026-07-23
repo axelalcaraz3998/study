@@ -41,7 +41,7 @@ At first glance, arrays and linked list seem similar, but they differ significan
 - **Pointers or References**: Linked lists use pointers to access the next node, which can make them more complex to understand and use compared to arrays.
 - **Higher Overhead**: Linked lists have a higher overhead compared to arrays, as each node in a linked list requires extra memory to store the reference to the next node.
 - **Cache Inefficiency**: Linked lists are cache-inefficient because the memory is not contiguous. This means that when you traverse a linked list, you are not likely to get the data you need in the cache, leading to cache misses and slow performance.
-# Linked List Implementation
+# Implementation
 ## Singly Linked List
 See [[Singly Linked List Implementation]].
 ## Doubly Linked List
