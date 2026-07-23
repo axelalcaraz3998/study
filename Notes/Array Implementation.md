@@ -1,6 +1,6 @@
 Tags: #ComputerScience #DSA #Java #Python #JavaScript 
-# Java
-## Traversal
+# Traversal
+## Java
 ```java
 public class Main {
 
@@ -15,7 +15,26 @@ public class Main {
 
 }
 ```
-## Insertion at Beginning
+## Python
+```python
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
+
+for i in range(n):
+	print(arr[i], end=" ")
+print("")
+```
+## JavaScript
+```js
+let arr = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr.length; i++) {
+	process.stdout.write(arr[i] + " ");
+}
+console.log("");
+```
+# Insertion at Beginning
+## Java
 ```java
 public class Main {
 
@@ -34,7 +53,33 @@ public class Main {
 
 }
 ```
-## Insertion at Given Index
+## Python
+```python
+arr = [1, 2, 3, 4, 0]
+n = len(arr)
+x = 5
+
+# Shift elements to the right
+for i in range(n - 2, -1, -1):
+	arr[i + 1] = arr[i]
+# Insert new element at the beginning
+arr[0] = x
+```
+## JavaScript
+```js
+let arr = [1, 2, 3, 4, 0];
+let n = arr.length;
+let x = 5;
+
+// Shift elements to the right
+for (let i = n - 2; i >= 0; i--) {
+	arr[i + 1] = arr[i];
+}
+// Insert new elment at the beginning
+arr[0] = x;
+```
+# Insertion at Given Index
+## Java
 ```java
 public class Main {
 
@@ -54,7 +99,35 @@ public class Main {
 
 }
 ```
-## Insertion at End
+## Python
+```python
+arr = [1, 2, 3, 4, 0]
+n = len(arr)
+x = 5
+idx = 2
+
+# Shift elements to the right
+for i in range(n - 2, idx - 1, -1):
+	arr[i + 1] = arr[i]
+# Insert new element at given index
+arr[idx] = x
+```
+## JavaScript
+```js
+let arr = [1, 2, 3, 4, 0];
+let n = arr.length;
+let x = 5;
+let idx = 2;
+
+// Shift elements to the right
+for (let i = n - 2; i >= idx; i--) {
+	arr[i + 1] = arr[i];
+}
+// Insert new elment at given index
+arr[idx] = x;
+```
+# Insertion at End
+## Java
 ```java
 public class Main {
 
@@ -69,7 +142,26 @@ public class Main {
 
 }
 ```
-## Deletion From Beginning
+## Python
+```python
+arr = [1, 2, 3, 4, 0]
+n = len(arr)
+x = 5
+
+# Insert new element at the end
+arr[n - 1] = x
+```
+## JavaScript
+```js
+let arr = [1, 2, 3, 4, 0];
+let n = arr.length;
+let x = 5;
+
+// Insert new elment at the end
+arr[n - 1] = x;
+```
+# Deletion From Beginning
+## Java
 ```java
 public class Main {
 
@@ -87,7 +179,31 @@ public class Main {
 
 }
 ```
-## Deletion of Given Index
+## Python
+```python
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
+
+# Shift elements to left
+for i in range(1, n):
+	arr[i - 1] = arr[i]
+# Update array size
+n = n -1
+```
+## JavaScript
+```js
+let arr = [1, 2, 3, 4, 5];
+let n = arr.length;
+
+// Shift elements to the left
+for (let i = 1; i < n; i++) {
+	arr[i - 1] = arr[i];
+}
+// Update array size
+n = n - 1;
+```
+# Deletion Of Given Index
+## Java
 ```java
 public class Main {
 
@@ -106,7 +222,33 @@ public class Main {
 
 }
 ```
-## Deletion of Given Element
+## Python
+```python
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
+idx = 2
+
+# Shift elements to left from given index
+for i in range(idx, n - 1):
+	arr[i] = arr[i + 1]
+# Update array size
+n = n -1
+```
+## JavaScript
+```js
+let arr = [1, 2, 3, 4, 5];
+let n = arr.length;
+let idx = 2;
+
+// Shift elements to the left from given index
+for (let i = idx; i < n - 1; i++) {
+	arr[i] = arr[i + 1];
+}
+// Update array size
+n = n - 1;
+```
+# Deletion Of Given Element
+## Java
 ```java
 public class Main {
 
@@ -132,88 +274,7 @@ public class Main {
 
 }
 ```
-## Deletion From End
-```java
-public class Main {
-
-	public static void main(String[] args) {
-		int[] arr = { 1, 2, 3, 4, 5 };
-		int n = arr.length;
-		
-		// Upate array size
-		n = n - 1;
-	}
-
-}
-```
-# Python
-## Traversal
-```python
-arr = [1, 2, 3, 4, 5]
-n = len(arr)
-
-for i in range(n):
-	print(arr[i], end=" ")
-print("")
-```
-## Insertion at Beginning
-```python
-arr = [1, 2, 3, 4, 0]
-n = len(arr)
-x = 5
-
-# Shift elements to the right
-for i in range(n - 2, -1, -1):
-	arr[i + 1] = arr[i]
-# Insert new element at the beginning
-arr[0] = x
-```
-## Insertion at Given Index
-```python
-arr = [1, 2, 3, 4, 0]
-n = len(arr)
-x = 5
-idx = 2
-
-# Shift elements to the right
-for i in range(n - 2, idx - 1, -1):
-	arr[i + 1] = arr[i]
-# Insert new element at given index
-arr[idx] = x
-```
-## Insertion at End
-```python
-arr = [1, 2, 3, 4, 0]
-n = len(arr)
-x = 5
-
-# Insert new element at the end
-arr[n - 1] = x
-```
-## Deletion From Beginning
-```python
-arr = [1, 2, 3, 4, 5]
-n = len(arr)
-
-# Shift elements to left
-for i in range(1, n):
-	arr[i - 1] = arr[i]
-# Update array size
-n = n -1
-```
-## Deletion of Given Index
-```python
-arr = [1, 2, 3, 4, 5]
-n = len(arr)
-idx = 2
-
-# Shift elements to left from given index
-for i in range(idx, n - 1):
-	arr[i] = arr[i + 1]
-# Update array size
-n = n -1
-```
-## Deletion of Given Element
+## Python
 ```python
 arr = [1, 2, 3, 4, 5]
 n = len(arr)
@@ -230,86 +291,7 @@ for i in range(n):
 if found is True:
 	n = n - 1
 ```
-## Deletion From End
-```python
-arr = [1, 2, 3, 4, 5]
-n = len(arr)
-
-# Update array size
-n = n -1
-```
-# JavaScript
-## Traversal
-```js
-let arr = [1, 2, 3, 4, 5];
-
-for (let i = 0; i < arr.length; i++) {
-	process.stdout.write(arr[i] + " ");
-}
-console.log("");
-```
-## Insertion at Beginning
-```js
-let arr = [1, 2, 3, 4, 0];
-let n = arr.length;
-let x = 5;
-
-// Shift elements to the right
-for (let i = n - 2; i >= 0; i--) {
-	arr[i + 1] = arr[i];
-}
-// Insert new elment at the beginning
-arr[0] = x;
-```
-## Insertion at Given Index
-```js
-let arr = [1, 2, 3, 4, 0];
-let n = arr.length;
-let x = 5;
-let idx = 2;
-
-// Shift elements to the right
-for (let i = n - 2; i >= idx; i--) {
-	arr[i + 1] = arr[i];
-}
-// Insert new elment at given index
-arr[idx] = x;
-```
-## Insertion at End
-```js
-let arr = [1, 2, 3, 4, 0];
-let n = arr.length;
-let x = 5;
-
-// Insert new elment at the end
-arr[n - 1] = x;
-```
-## Deletion From Beginning
-```js
-let arr = [1, 2, 3, 4, 5];
-let n = arr.length;
-
-// Shift elements to the left
-for (let i = 1; i < n; i++) {
-	arr[i - 1] = arr[i];
-}
-// Update array size
-n = n - 1;
-```
-## Deletion of Given Index
-```js
-let arr = [1, 2, 3, 4, 5];
-let n = arr.length;
-let idx = 2;
-
-// Shift elements to the left from given index
-for (let i = idx; i < n - 1; i++) {
-	arr[i] = arr[i + 1];
-}
-// Update array size
-n = n - 1;
-```
-## Deletion of Given Element
+## JavaScript
 ```js
 let arr = [1, 2, 3, 4, 5];
 let n = arr.length;
@@ -329,7 +311,30 @@ if (found == true) {
 	n = n - 1;
 }
 ```
-## Deletion From End
+# Deletion From end
+## Java
+```java
+public class Main {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 5 };
+		int n = arr.length;
+		
+		// Upate array size
+		n = n - 1;
+	}
+
+}
+```
+## Python
+```python
+arr = [1, 2, 3, 4, 5]
+n = len(arr)
+
+# Update array size
+n = n -1
+```
+## JavaScript
 ```js
 let arr = [1, 2, 3, 4, 5];
 let n = arr.length;
