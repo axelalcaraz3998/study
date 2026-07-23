@@ -5,7 +5,6 @@
 ## [[Linked List]]
 ### [[Singly Linked List Implementation]]
 ### [[Doubly Linked List Implementation]]
-### [[Circular Linked List Implementation]]
 ## [[Stack]]
 ## [[Queue]]
 ## [[Hash Table]]

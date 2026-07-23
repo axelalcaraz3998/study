@@ -46,8 +46,6 @@ At first glance, arrays and linked list seem similar, but they differ significan
 See [[Singly Linked List Implementation]].
 ## Doubly Linked List
 See [[Doubly Linked List Implementation]].
-## Circular Linked List
-See [[Circular Linked List Implementation]].
 # References
 ## Articles
 - [Linked List Data Structure](https://www.geeksforgeeks.org/dsa/linked-list-data-structure/)
