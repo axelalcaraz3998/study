@@ -13,6 +13,7 @@
 # [[Algorithmic Complexity]]
 # [[Asymptotic Notation]]
 # Sorting Algorithms
+## [[Bubble Sort]]
 # Search Algorithms
 ## [[Linear Search]]
 ## [[Binary Search]]
