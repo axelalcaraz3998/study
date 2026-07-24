@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "e7685545cce00fe6",
+            "id": "5a5be234a32eef76",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Stack Implementation.md",
+                "file": "Notes/Queue Implementation.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Stack Implementation"
+              "title": "Outline of Queue Implementation"
             }
           },
           {
@@ -251,13 +251,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "336e46b1473ab7b1",
+  "active": "803aea2e64d69c6a",
   "lastOpenFiles": [
+    "Notes/Stack Implementation.md",
     "Notes/Queue Implementation.md",
     "Notes/Queue.md",
-    "Notes/Stack Implementation.md",
     "Notes/Stack.md",
+    "Attachments/types-of-queues.webp",
     "MOCs/Data Structures and Algorithms MOC.md",
+    "Attachments/queue.webp",
     "Notes/Array.md",
     "Notes/Binary Search.md",
     "Notes/Linear Search.md",
@@ -284,13 +286,10 @@
     "Attachments/singly-linked-list.webp",
     "Attachments/linked-list.webp",
     "Excalidraw/Drawing 2026-07-15 20.19.10.excalidraw.md",
-    "Notes/Top K Elements.md",
     "www.youtube.com",
     "Attachments/array-sorting-algorithms.png",
     "Attachments/common-data-structure-operations.png",
     "Attachments/big-o-cheat-sheet.png",
-    "Attachments/sliding-window.webp",
-    "Attachments/sliding-window-2.jpg",
     "Untitled.base",
     "MOCs"
   ]
