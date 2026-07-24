@@ -1,7 +1,6 @@
 Tags: #ComputerScience #DSA #Java #Python #JavaScript 
-# Queue
-## Array Implementation
-### Java
+# Using Array
+## Java
 ```java
 class MyQueue {
 	
@@ -91,7 +90,7 @@ public class Main {
 	
 }
 ```
-### Python
+## Python
 ```python
 class MyQueue:
 	def __init__(self, capacity):
@@ -157,7 +156,7 @@ print(queue.dequeue()) # 2
 print(queue.get_size()) # 3
 print(queue.is_empty()) # False
 ```
-### JavaScript
+## JavaScript
 ```js
 class MyQueue {
 
@@ -237,19 +236,275 @@ console.log(queue.dequeue()); // 2
 console.log(queue.getSize()); // 3
 console.log(queue.isEmpty()); // False
 ```
-## Linked List Implementation
-### Java
-### Python
-### JavaScript
-# Double-Ended Queue (Deque)
-## Array Implementation
-### Java
-### Python
-### JavaScript
-## Linked List Implementation
-### Java
-### Python
-### JavaScript
+# Using Linked List
+## Java
+```java
+class Node {
+	
+	int data;
+	Node next;
+	
+	Node(int data) {
+		this.data = data;
+		this.next = null;
+	}
+	
+}
+
+class MyQueue {
+	
+	int size;
+	Node front;
+	Node rear;
+	
+	MyQueue() {
+		this.size = 0;
+		this.front = null;
+		this.rear = null;
+	}
+	
+	void enqueue(int data) {
+		Node newNode = new Node(data);
+		
+		// If queue is empty then new node is both front and rear	
+		if (this.isEmpty()) {
+			this.front = newNode;
+			this.rear = newNode;
+		} else {
+			this.rear.next = newNode;
+			this.rear = this.rear.next;
+		}
+		
+		// Increment size
+		this.size++;
+	}
+	
+	int dequeue() {
+		// Abort if queue is empty
+		if (this.isEmpty()) {
+			return -1;
+		}
+		
+		// Retrieve element at front and move front to next node
+		int firstElement = this.front.data;
+		Node temp = this.front;
+		this.front = this.front.next;
+		temp = null;
+		
+		// If front is null that means queue is now empty
+		if (this.front == null) {
+			this.rear = null;
+		}
+		
+		// Decrement size
+		this.size--;
+		
+		return firstElement;
+	}
+	
+	int peek() {
+		// Abort if queue is empty
+		if (this.isEmpty()) {
+			return -1;
+		}
+		
+		return this.front.data;
+	}
+	
+	boolean isEmpty() {
+		return this.size == 0;
+	}
+	
+	int getSize() {
+		return this.size;
+	}
+}
+
+public class Main {
+	
+	public static void main(String[] args) {
+		MyQueue queue = new MyQueue();
+		
+		System.out.println(queue.isEmpty()); // True
+		queue.enqueue(1);
+		queue.enqueue(2);
+		queue.enqueue(3);
+		queue.enqueue(4);
+		queue.enqueue(5);
+		System.out.println(queue.peek()); // 1
+		queue.dequeue();
+		System.out.println(queue.dequeue()); // 2
+		System.out.println(queue.getSize()); // 3
+		System.out.println(queue.isEmpty()); // False
+	}
+	
+}
+```
+## Python
+```python
+class Node:
+	def __init__(self, data):
+		self.data = data
+		self.next = None
+
+class MyQueue:
+	def __init__(self):
+		self.size = 0
+		self.front = None
+		self.rear = None
+	
+	def enqueue(self, data):
+		new_node = Node(data)
+		
+		# If queue is empty then new node is both front and rear
+		if self.is_empty():
+			self.front = new_node
+			self.rear = new_node
+		else:
+			self.rear.next = new_node
+			self.rear = self.rear.next
+		
+		# Increment size
+		self.size += 1
+	
+	def dequeue(self):
+		# Abort if queue is empty
+		if self.is_empty():
+			return -1
+		
+		# Get element at front and move front to next node
+		firstElement = self.front.data
+		temp = self.front
+		self.front = self.front.next
+		temp = None
+		
+		# If front is null that means queue is now empty
+		if self.front is None:
+			self.rear = None
+		
+		# Decrement array size
+		self.size -= 1
+		
+		return firstElement
+	
+	def peek(self):
+		# Abort if queue is empty
+		if self.is_empty():
+			return -1
+		
+		return self.front.data
+	
+	def is_empty(self):
+		return self.size == 0
+		
+	def get_size(self):
+		return self.size
+
+queue = MyQueue()
+
+print(queue.is_empty()) # True
+queue.enqueue(1)
+queue.enqueue(2)
+queue.enqueue(3)
+queue.enqueue(4)
+queue.enqueue(5)
+print(queue.peek()) # 1
+queue.dequeue()
+print(queue.dequeue()) # 2
+print(queue.get_size()) # 3
+print(queue.is_empty()) # False
+```
+## JavaScript
+```js
+class Node {
+	
+	constructor(data) {
+		this.data = data;
+		this.next = null;
+	}
+	
+}
+
+class MyQueue {
+	
+	constructor(capacity) {
+		this.capacity = capacity;
+		this.arr = new Array(capacity);
+		this.size = 0;
+	}
+	
+	enqueue(data) {
+		let newNode = new Node(data);
+		
+		// If queue is empty then new node is both front and rear	
+		if (this.isEmpty()) {
+			this.front = newNode;
+			this.rear = newNode;
+		} else {
+			this.rear.next = newNode;
+			this.rear = this.rear.next;
+		}
+		
+		// Increment size
+		this.size++;
+	}
+	
+	dequeue() {
+		// Abort if queue is empty
+		if (this.isEmpty()) {
+			return -1;
+		}
+		
+		// Retrieve element at front and move front to next node
+		let firstElement = this.front.data;
+		let temp = this.front;
+		this.front = this.front.next;
+		temp = null;
+		
+		// If front is null that means queue is now empty
+		if (this.front == null) {
+			this.rear = null;
+		}
+		
+		// Decrement size
+		this.size--;
+		
+		return firstElement;
+	}
+	
+	peek() {
+		// Abort if queue is empty
+		if (this.isEmpty()) {
+			return -1;
+		}
+		
+		return this.front.data;
+	}
+	
+	isEmpty() {
+		return this.size == 0;
+	}
+	
+	getSize() {
+		return this.size;
+	}
+	
+}
+
+let queue = new MyQueue();
+
+console.log(queue.isEmpty()); // True
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+queue.enqueue(4);
+queue.enqueue(5);
+console.log(queue.peek()); // 1
+queue.dequeue();
+console.log(queue.dequeue()); // 2
+console.log(queue.getSize()); // 3
+console.log(queue.isEmpty()); // False
+```
 # References
 ## Articles
 - [Queue using Array](https://www.geeksforgeeks.org/dsa/array-implementation-of-queue-simple/)
