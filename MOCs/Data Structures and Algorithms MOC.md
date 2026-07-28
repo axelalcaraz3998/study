@@ -14,6 +14,8 @@
 # [[Asymptotic Notation]]
 # Sorting Algorithms
 ## [[Bubble Sort]]
+## [[Insertion Sort]]
+## [[Selection Sort]]
 # Search Algorithms
 ## [[Linear Search]]
 ## [[Binary Search]]
