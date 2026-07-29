@@ -62,6 +62,34 @@
               "icon": "lucide-file",
               "title": "Selection Sort"
             }
+          },
+          {
+            "id": "ca34e9cd2f08b8aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Merge Sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Merge Sort"
+            }
+          },
+          {
+            "id": "7481155154943751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Quick Sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Quick Sort"
+            }
           }
         ]
       }
@@ -236,12 +264,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2774b905072f401c",
+  "active": "38b55ab09319cd15",
   "lastOpenFiles": [
-    "Notes/Bubble Sort.md",
-    "Notes/Insertion Sort.md",
+    "Notes/Quick Sort.md",
+    "Notes/Merge Sort.md",
     "Notes/Selection Sort.md",
+    "Notes/Insertion Sort.md",
+    "Notes/Bubble Sort.md",
     "MOCs/Data Structures and Algorithms MOC.md",
+    "Attachments/quick-sort.webp",
+    "Attachments/merge-sort.webp",
     "MOCs/Computer Science MOC.md",
     "Notes/Stack Implementation.md",
     "Attachments/selection-sort.png",
@@ -262,7 +294,6 @@
     "Attachments/queue.webp",
     "Notes/Array.md",
     "Notes/Binary Search.md",
-    "Attachments/stack.webp",
     "Notes/Array Implementation.md",
     "Notes/Singly Linked List Implementation.md",
     "Notes/Circular Linked List Implementation.md",
@@ -270,11 +301,7 @@
     "Notes/Algorithmic Complexity.md",
     "Notes/Linked List Implementation.md",
     "Notes/Sliding Window.md",
-    "Excalidraw/Drawing 2026-07-21 22.50.42.excalidraw.md",
     "Excalidraw",
-    "Notes/Basic Data Structures.md",
-    "Notes/What are Data Structures?.md",
-    "Attachments/circular-linked-list.webp",
     "www.youtube.com",
     "Untitled.base",
     "MOCs"

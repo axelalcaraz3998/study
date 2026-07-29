@@ -16,6 +16,8 @@
 ## [[Bubble Sort]]
 ## [[Insertion Sort]]
 ## [[Selection Sort]]
+## [[Merge Sort]]
+## [[Quick Sort]]
 # Search Algorithms
 ## [[Linear Search]]
 ## [[Binary Search]]
