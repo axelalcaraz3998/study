@@ -91,8 +91,7 @@
               "title": "Quick Sort"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Merge Sort.md",
+                "file": "MOCs/Data Structures and Algorithms MOC.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -267,14 +266,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2774b905072f401c",
+  "active": "38b55ab09319cd15",
   "lastOpenFiles": [
+    "Notes/Quick Sort.md",
+    "MOCs/Data Structures and Algorithms MOC.md",
+    "Notes/Bubble Sort.md",
+    "Notes/Insertion Sort.md",
     "Notes/Selection Sort.md",
     "Notes/Merge Sort.md",
-    "Notes/Quick Sort.md",
-    "Notes/Insertion Sort.md",
-    "Notes/Bubble Sort.md",
-    "MOCs/Data Structures and Algorithms MOC.md",
     "Attachments/quick-sort.webp",
     "Attachments/merge-sort.webp",
     "MOCs/Computer Science MOC.md",
