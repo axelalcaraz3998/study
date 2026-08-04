@@ -91,7 +91,8 @@
               "title": "Quick Sort"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +112,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -225,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOCs/Data Structures and Algorithms MOC.md",
+                "file": "Notes/Merge Sort.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Structures and Algorithms MOC"
+              "title": "Outline"
             }
           },
           {
@@ -266,9 +269,9 @@
   },
   "active": "2774b905072f401c",
   "lastOpenFiles": [
-    "Notes/Quick Sort.md",
-    "Notes/Merge Sort.md",
     "Notes/Selection Sort.md",
+    "Notes/Merge Sort.md",
+    "Notes/Quick Sort.md",
     "Notes/Insertion Sort.md",
     "Notes/Bubble Sort.md",
     "MOCs/Data Structures and Algorithms MOC.md",
