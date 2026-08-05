@@ -92,5 +92,7 @@ console.log("");
 # References
 ## Articles
 - [Selection Sort](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/)
+## Videos
+- [Learn Selection Sort in 8 minutes](https://www.youtube.com/watch?v=EwjnF7rFLns)
 
-[[Data Structures and Algorithms MOC]]
+[[Sorting Algorithms]]

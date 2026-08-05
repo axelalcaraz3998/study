@@ -57,4 +57,4 @@ function prefixSum(arr, n) {
 ## Videos
 - [Prefix Sum in 4 minutes | LeetCode Pattern](https://www.youtube.com/watch?v=yuws7YK0Yng)
 
-[[Data Structures and Algorithms MOC]]
+[[Problem Solving Techniques]]

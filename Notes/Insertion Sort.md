@@ -88,5 +88,7 @@ console.log("");
 # References
 ## Articles
 - [Insertion Sort Algorithm](https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/)
+## Videos
+- [Learn Insertion Sort in 7 minutes](https://www.youtube.com/watch?v=8mJ-OhcfpYg)
 
-[[Data Structures and Algorithms MOC]]
+[[Sorting Algorithms]]

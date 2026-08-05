@@ -1,1 +1,1 @@
-# [[Computer Science MOC|Computer Science]]
+# [[Computer Science MOC]]

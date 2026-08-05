@@ -76,4 +76,4 @@ function reverseString(s) {
 ## Videos
 - [Two Pointers in 7 Minutes | LeetCode Pattern](https://www.youtube.com/watch?v=QzZ7nmouLTI)
 
-[[Data Structures and Algorithms MOC]]
+[[Problem Solving Techniques]]

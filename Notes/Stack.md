@@ -41,5 +41,7 @@ See [[Stack Implementation]].
 - [Stack Data Structure](https://www.geeksforgeeks.org/dsa/stack-data-structure/)
 - [Introduction to Stack Data Structure](https://www.geeksforgeeks.org/dsa/introduction-to-stack-data-structure-and-algorithm-tutorials/)
 - [Applications of Stack](https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-stack/)
+## Videos
+- [Stack Data Structure](https://www.youtube.com/watch?v=I5lq6sCuABE)
 
 [[Basic Data Structures]]

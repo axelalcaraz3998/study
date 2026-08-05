@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1b603fbb04c093c",
+        "id": "2c3e73638dfafa72",
         "type": "tabs",
         "children": [
           {
-            "id": "38b55ab09319cd15",
+            "id": "5063ba97b0642341",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,91 +22,21 @@
             }
           },
           {
-            "id": "c5e35ea7bf296f72",
+            "id": "52c3e053388b1a16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Asymptotic Notation.md",
+                "file": "Notes/Tree Data Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asymptotic Notation"
-            }
-          },
-          {
-            "id": "a5a475379fb16766",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Bubble Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bubble Sort"
-            }
-          },
-          {
-            "id": "23ad31d0d213f9a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Insertion Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Insertion Sort"
-            }
-          },
-          {
-            "id": "14c01a848b8a7814",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Selection Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Selection Sort"
-            }
-          },
-          {
-            "id": "ca34e9cd2f08b8aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Merge Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Merge Sort"
-            }
-          },
-          {
-            "id": "7481155154943751",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Quick Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quick Sort"
+              "title": "Tree Data Structure"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Quick Sort.md",
+                "file": "Notes/Tree Data Structure.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -281,43 +211,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7481155154943751",
+  "active": "52c3e053388b1a16",
   "lastOpenFiles": [
-    "Notes/Asymptotic Notation.md",
     "MOCs/Data Structures and Algorithms MOC.md",
-    "Notes/Bubble Sort.md",
-    "Notes/Algorithmic Complexity.md",
-    "Notes/Quick Sort.md",
-    "Notes/Insertion Sort.md",
-    "Notes/Selection Sort.md",
-    "Notes/Merge Sort.md",
+    "Notes/Tree Data Structure.md",
+    "Notes/Binary Tree.md",
+    "MOCs/Computer Science MOC.md",
+    "MOCs/Databases MOC.md",
+    "MOCs/System Design MOC.md",
+    "MOCs/Software Design and Architecture MOC.md",
+    "Notes/SOLID Principles.md",
+    "Home MOC.md",
+    "Notes/In-Order Traversal.md",
+    "Notes/Pre-Order Traversal.md",
+    "Notes/Post-Order Traversal.md",
+    "Notes/Binary Tree Implementation.md",
+    "Notes/Array Implementation.md",
+    "Notes/Array.md",
+    "Notes/Stack.md",
+    "Attachments/binary-tree.webp",
+    "Attachments/post-order-traversal.png",
+    "Attachments/pre-order-traversal.png",
+    "Attachments/in-order-traversal.webp",
+    "Notes/Problem Solving Techniques.md",
+    "Notes/Fast and Slow Pointers.md",
+    "Notes/Top K Elements.md",
+    "Notes/Sliding Window.md",
+    "Notes/Two Pointers.md",
+    "Notes/Prefix Sum.md",
+    "Notes/Search Algorithms.md",
+    "Notes/Binary Search.md",
+    "Notes/Linear Search.md",
+    "Notes/Sorting Algorithms.md",
+    "Attachments/tree-data-structure.webp",
     "Attachments/quick-sort.webp",
     "Attachments/merge-sort.webp",
-    "MOCs/Computer Science MOC.md",
-    "Notes/Stack Implementation.md",
     "Attachments/selection-sort.png",
     "Attachments/insertion-sort.png",
-    "Notes/Doubly Linked List Implementation.md",
-    "Notes/Queue Implementation.md",
-    "Notes/Linear Search.md",
     "Attachments/bubble-sort.webp",
-    "Notes/Hash Table.md",
-    "Notes/Hash Table Implementation.md",
-    "Attachments/collision-in-hashing.webp",
-    "Attachments/doubly-linked-list.webp",
-    "Attachments/hash-table.webp",
-    "Notes/Linked List.md",
-    "Notes/Queue.md",
-    "Notes/Stack.md",
-    "Attachments/types-of-queues.webp",
-    "Attachments/queue.webp",
-    "Notes/Array.md",
-    "Notes/Binary Search.md",
-    "Notes/Array Implementation.md",
-    "Notes/Singly Linked List Implementation.md",
-    "Notes/Circular Linked List Implementation.md",
-    "Notes/Linked List Implementation.md",
-    "Notes/Sliding Window.md",
     "Excalidraw",
     "www.youtube.com",
     "Untitled.base",

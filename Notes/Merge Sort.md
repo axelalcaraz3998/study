@@ -219,4 +219,4 @@ console.log("");
 ## Videos
 - [Learn Merge Sort in 13 minutes](https://www.youtube.com/watch?v=3j0SWDX4AtU)
 
-[[Data Structures and Algorithms MOC]]
+[[Sorting Algorithms]]

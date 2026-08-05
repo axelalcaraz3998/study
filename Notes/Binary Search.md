@@ -113,5 +113,7 @@ let result = binarySearch(arr, n, target);
 # References
 ## Articles
 - [Binary Search](https://www.geeksforgeeks.org/dsa/binary-search/)
+## Videos
+- [Learn Binary Search in 10 minutes](https://www.youtube.com/watch?v=xrMppTpoqdw)
 
-[[Data Structures and Algorithms MOC]]
+[[Search Algorithms]]

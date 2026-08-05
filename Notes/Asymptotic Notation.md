@@ -30,5 +30,7 @@ Big-Theta, commonly written as `Θ`, is an asymptotic notation to denote the asy
 - [Asymptotic Notation](https://learnxinyminutes.com/asymptotic-notation/)
 - [Big O Notation Cheat Sheet](https://neetcode.io/cheatsheets/big-o-notation)
 - [Big-O Algorithm Complexity Cheat Sheet](https://www.bigocheatsheet.com/)
+## Videos
+- [Big O Notation - Calculating Time Complexity](https://www.youtube.com/watch?v=Z0bH0cMY0E8)
 
 [[Data Structures and Algorithms MOC]]

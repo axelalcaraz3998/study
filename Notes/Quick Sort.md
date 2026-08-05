@@ -167,4 +167,4 @@ console.log("");
 ## Videos
 - [Learn Quick Sort in 13 minutes](https://www.youtube.com/watch?v=Vtckgz38QHs)
 
-[[Data Structures and Algorithms MOC]]
+[[Sorting Algorithms]]

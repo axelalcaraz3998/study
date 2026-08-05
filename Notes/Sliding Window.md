@@ -68,4 +68,4 @@ function maxSubArrSum(nums, k) {
 ## Videos
 - [Sliding Window in 7 minutes | LeetCode Pattern](https://www.youtube.com/watch?v=y2d0VHdvfdc)
 
-[[Data Structures and Algorithms MOC]]
+[[Problem Solving Techniques]]

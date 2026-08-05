@@ -36,5 +36,7 @@ See [[Queue Implementation]].
 ## Articles
 - [Queue Introduction](https://www.geeksforgeeks.org/dsa/introduction-to-queue-data-structure-and-algorithm-tutorials/)
 - [Applications, Advantages and Disadvantages of Queue](https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-queue/)
+## Videos
+- [Queue Data Structure](https://www.youtube.com/watch?v=mDCi1lXd9hc)
 
 [[Basic Data Structures]]

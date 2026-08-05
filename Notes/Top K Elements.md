@@ -13,4 +13,4 @@ A straightforward approach to solve these types of problems is to sort the entir
 ## Videos
 - [Top K Elements in 6 minutes | LeetCode Pattern](https://www.youtube.com/watch?v=6_v6OoxvMOE)
 
-[[Data Structures and Algorithms MOC]]
+[[Problem Solving Techniques]]

@@ -78,5 +78,7 @@ let result = linearSearch(arr, n, target);
 # References
 ## Articles
 - [Linear Search Algorithm](https://www.geeksforgeeks.org/dsa/linear-search/)
+## Videos
+- [Learn Linear Search in 3 minutes](https://www.youtube.com/watch?v=246V51AWwZM)
 
-[[Data Structures and Algorithms MOC]]
+[[Search Algorithms]]

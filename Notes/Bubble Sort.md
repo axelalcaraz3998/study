@@ -103,5 +103,7 @@ console.log("");
 # References
 ## Articles
 - [Bubble Sort](https://www.geeksforgeeks.org/dsa/bubble-sort-algorithm/)
+## Videos
+- [Learn Bubble Sort in 7 minutes](https://www.youtube.com/watch?v=Dv4qLJcxus8)
 
-[[Data Structures and Algorithms MOC]]
+[[Sorting Algorithms]]

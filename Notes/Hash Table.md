@@ -25,5 +25,7 @@ Collisions happen when two or more keys point to the same array index. Chaining,
 ## Articles
 - [Hash Table Data Structure](https://www.geeksforgeeks.org/dsa/hash-table-data-structure/)
 - [The Hash Table Data Structure: A Complete Guide](https://medium.com/@alejandro.itoaramendia/the-hash-table-data-structure-a-complete-guide-27fb7ebed2ff)
+## Videos
+- [Hash Table Data Structure](https://www.youtube.com/watch?v=jalSiaIi8j4)
 
 [[Basic Data Structures]]

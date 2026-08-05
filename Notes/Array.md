@@ -41,5 +41,7 @@ See [[Array Implementation]].
 - [Array Data Structure](https://www.geeksforgeeks.org/dsa/array-data-structure-guide/)
 - [Array Introduction](https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/)
 - [Applications, Advantages and Disadvantages of Array](https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-array-data-structure/)
+## Videos
+- [Array Data Structure](https://www.youtube.com/watch?v=QJNwK2uJyGs)
 
 [[Basic Data Structures]]

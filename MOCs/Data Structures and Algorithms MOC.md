@@ -12,16 +12,30 @@
 ## [[Hash Table]]
 # [[Algorithmic Complexity]]
 # [[Asymptotic Notation]]
-# Sorting Algorithms
+# [[Sorting Algorithms]]
 ## [[Bubble Sort]]
 ## [[Insertion Sort]]
 ## [[Selection Sort]]
 ## [[Merge Sort]]
 ## [[Quick Sort]]
-# Search Algorithms
+# [[Search Algorithms]]
 ## [[Linear Search]]
 ## [[Binary Search]]
-# Problem Solving Techniques
+# [[Tree Data Structure]]
+## [[Binary Tree]]
+### [[Binary Tree Implementation]]
+## Binary Search Tree
+### Binary Search Tree Implementation
+## AVL Tree
+### AVL Tree Implementation
+## Heap
+### Heap Implementation
+## [[In-Order Traversal]]
+## [[Pre-Order Traversal]]
+## [[Post-Order Traversal]]
+## Tree Breadth First Search
+## Tree Depth First Search
+# [[Problem Solving Techniques]]
 ## [[Prefix Sum]]
 ## [[Two Pointers]]
 ## [[Sliding Window]]

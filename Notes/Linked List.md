@@ -51,5 +51,7 @@ See [[Doubly Linked List Implementation]].
 - [Linked List Data Structure](https://www.geeksforgeeks.org/dsa/linked-list-data-structure/)
 - [Understanding Linked Lists: A Beginner's Guide](https://medium.com/@ogundipe.eniola/understanding-linked-lists-a-beginners-guide-a7ca6aa6ee04)
 - [Applications, Advantages and Disadvantages of Linked List](https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-linked-list/)
+## Videos
+- [Linked List Data Structure](https://www.youtube.com/watch?v=odW9FU8jPRQ)
 
 [[Basic Data Structures]]
