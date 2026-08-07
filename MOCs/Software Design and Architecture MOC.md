@@ -1,3 +1,4 @@
+Tags: #ComputerScience #SoftwareDesignAndArchitecture 
 # [[Clean Code Principles]]
 # [[Programming Paradigms]]
 ## [[Procedural Programming]]

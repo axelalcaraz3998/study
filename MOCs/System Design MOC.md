@@ -1,3 +1,4 @@
+Tags: #ComputerScience #SystemDesign 
 # [[What is a System Design?]]
 # [[How to Approach a System Design?]]
 # [[Performance vs Scalability]]

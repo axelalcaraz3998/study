@@ -1,3 +1,4 @@
+Tags: #ComputerScience #DSA 
 # [[What are Data Structures?]]
 # [[Basic Data Structures]]
 ## [[Array]]
@@ -33,8 +34,8 @@
 ## [[In-Order Traversal]]
 ## [[Pre-Order Traversal]]
 ## [[Post-Order Traversal]]
-## Tree Breadth First Search
-## Tree Depth First Search
+## [[Tree Depth First Search]]
+## [[Tree Breadth First Search]]
 # [[Problem Solving Techniques]]
 ## [[Prefix Sum]]
 ## [[Two Pointers]]

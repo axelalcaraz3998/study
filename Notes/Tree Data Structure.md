@@ -46,6 +46,15 @@ See [[Pre-Order Traversal]].
 Visits the nodes in the order: Left -> Right -> Root.
 
 See [[Post-Order Traversal]].
+# Tree Search Algorithms
+## Depth First Search
+Depth-First-Search (DFS) is a method used to explore all the nodes in a tree by going as deep as possible along each branch before moving to the next one. It starts at the root node and visits every node in the tree.
+
+See [[Tree Depth First Search]].
+## Breadth First Search
+Breath-First-Search (BFS) is a tree traversal algorithm that explores all nodes at a given depth level completely before moving down to the next level. It processes nodes horizontally from left to right, layer by layer.
+
+See [[Tree Breadth First Search]].
 # Applications
 - Trees are useful for storing data that naturally forms a hierarchy.
 - File systems on computers are structured as trees, with folders containing subfolders and files.

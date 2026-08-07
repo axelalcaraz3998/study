@@ -1,3 +1,4 @@
+Tags: #ComputerScience #Databases 
 # [[What is a Database?]]
 # [[Database Normalization]]
 ## [[First Normal Form (1NF)]]
