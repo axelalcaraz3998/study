@@ -63,8 +63,7 @@
               "title": "Tree Breadth First Search"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Tree Breadth First Search.md",
+                "file": "MOCs/Data Structures and Algorithms MOC.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -239,12 +238,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a8fef4a37dc2a5bf",
+  "active": "826c23d52f5078fb",
   "lastOpenFiles": [
-    "MOCs/Data Structures and Algorithms MOC.md",
-    "Notes/Tree Data Structure.md",
     "Notes/Tree Breadth First Search.md",
     "Notes/Tree Depth First Search.md",
+    "Notes/Tree Data Structure.md",
+    "MOCs/Data Structures and Algorithms MOC.md",
+    "Notes/Binary Tree.md",
     "Attachments/tree-breadth-first-search.jpg",
     "MOCs/Computer Science MOC.md",
     "MOCs/Databases MOC.md",
@@ -260,7 +260,6 @@
     "Notes/Binary Search Tree Implementation.md",
     "Notes/Binary Search Tree.md",
     "Notes/Binary Tree Implementation.md",
-    "Notes/Binary Tree.md",
     "Notes/Array Implementation.md",
     "Attachments/binary-search-tree.webp",
     "Notes/Stack.md",
