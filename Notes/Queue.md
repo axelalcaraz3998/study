@@ -31,7 +31,10 @@ A queue where each element is assigned a priority, and deletion always happens b
 - Searching elements takes linear time `O(n)`.
 - Maximum size of a queue must be defined prior, in the case of the array implementation.
 # Implementation
+## Queue
 See [[Queue Implementation]].
+## Double-Ended Queue
+See [[Double-Ended Queue Implementation]].
 # References
 ## Articles
 - [Queue Introduction](https://www.geeksforgeeks.org/dsa/introduction-to-queue-data-structure-and-algorithm-tutorials/)
