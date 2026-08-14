@@ -21,6 +21,8 @@ Collisions happen when two or more keys point to the same array index. Chaining,
 - **Open Addressing**: Collisions are handled by looking for the following empty space in the table. If the first slot is already taken, the hash function is applied to the subsequent slots until one is left empty. There are various ways to use this approach, including double hashing, linear probing, and quadratic probing.
 - **Separate Chaining**: In separate chaining, a linked list of objects that hash to each slot is present. Two keys are included in the linked list if they hash to the same slot. This method is rather simple to use and can manage several collisions.
 - **Robin Hood Hashing**: To reduce the length of the chain, collisions in Robin Hood hashing are addressed by switching off keys. The algorithm compares the distance between the slot and the occupied slot of the two keys if a new key hashes to an already-occupied slot. The existing key gets swapped out with the new one if it's closer to its ideal slot. This method has a tendency to cut down on collisions and average chain length.
+# Implementation
+See [[Hash Table Implementation]].
 # References
 ## Articles
 - [Hash Table Data Structure](https://www.geeksforgeeks.org/dsa/hash-table-data-structure/)

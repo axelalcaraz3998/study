@@ -12,6 +12,7 @@ Tags: #ComputerScience #DSA
 ### [[Queue Implementation]]
 ### [[Double-Ended Queue Implementation]]
 ## [[Hash Table]]
+### [[Hash Table Implementation]]
 # [[Algorithmic Complexity]]
 # [[Asymptotic Notation]]
 # [[Sorting Algorithms]]
