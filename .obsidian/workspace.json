@@ -63,8 +63,7 @@
               "title": "Hash Table Implementation"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Hash Table Implementation.md",
+                "file": "MOCs/Computer Science MOC.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -239,11 +238,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bbe64933d75f4e9b",
+  "active": "2774b905072f401c",
   "lastOpenFiles": [
-    "Notes/Hash Table Implementation.md",
-    "Notes/Hash Table.md",
     "MOCs/Data Structures and Algorithms MOC.md",
+    "Notes/Hash Table.md",
+    "Notes/Hash Table Implementation.md",
     "MOCs/Computer Science MOC.md",
     "Notes/Queue.md",
     "Notes/Doubly Linked List Implementation.md",
