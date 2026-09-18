@@ -211,13 +211,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3769cc888144567",
+  "active": "2774b905072f401c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "MOCs/System Design MOC.md",
     "Notes/Returning Job Results.md",
     "Notes/Schedule-Driven Triggers.md",
     "Notes/Event-Driven Triggers.md",
     "Notes/Background Jobs.md",
-    "MOCs/System Design MOC.md",
     "Notes/Availability in Numbers.md",
     "Notes/Replication Pattern.md",
     "Notes/Fail-Over Pattern.md",
@@ -238,7 +239,6 @@
     "Notes/Hash Table.md",
     "Notes/Queue.md",
     "Notes/Doubly Linked List Implementation.md",
-    "Notes/Array Implementation.md",
     "Attachments/tree-breadth-first-search.jpg",
     "Attachments/tree-depth-first-search.webp",
     "Attachments/binary-search-tree.webp",
