@@ -4,15 +4,15 @@ Availability patterns are established architectural approaches used to ensure a 
 # Fail-Over Pattern
 In a typical fail-over pattern, there's a primary component handling the workload, and a secondary component waiting in the wings. The primary component is constantly monitored for signs of failure. If it goes down, the secondary component is automatically activated to ensure uninterrupted service.
 
-See [[Fail-Over Pattern]]
+See [[Fail-Over Pattern]].
 # Replication Pattern
 Replication is a strategy that involves storing multiple copies of data across different locations. This redundancy ensures that even if one location experiences failure, the data can still be accessed from another.
 
-See [[Replication Pattern]]
+See [[Replication Pattern]].
 # Availability in Numbers
 Availability is often quantified by uptime (or downtime) as a percentage of time the service is available. Availability is generally measured in number of 9.
 
-See [[Availability in Numbers]]
+See [[Availability in Numbers]].
 # References
 ## Articles
 - [System Design: Availability Patterns](https://dev.to/decoders_lord/system-design-availability-patterns-104i)

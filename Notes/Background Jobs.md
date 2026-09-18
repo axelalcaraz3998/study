@@ -17,15 +17,15 @@ You can initiate background jobs in several ways. They fall into one of the foll
 ## Event-Driven Triggers
 An even, typically a user action or a step in a workflow, starts the task.
 
-See [[Event-Driven Triggers]]
+See [[Event-Driven Triggers]].
 ## Schedule-Driven Triggers
 A timer invokes the task on a recurring schedule or as a single invocation at a specified time.
 
-See [[Schedule-Driven Triggers]]
+See [[Schedule-Driven Triggers]].
 # Returning Results
 Returning results refers to the process or providing output or responses to users, clients, or other components after a request or task has been processed.
 
-See [[Returning Job Results]]
+See [[Returning Job Results]].
 # References
 ## Articles
 - [Best practices for background jobs](https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
