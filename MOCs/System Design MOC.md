@@ -14,5 +14,6 @@ Tags: #ComputerScience #SystemDesign
 ## [[Event-Driven Triggers]]
 ## [[Schedule-Driven Triggers]]
 ## [[Returning Job Results]]
+# [[Domain Name Server (DNS)]]
 
 [[Computer Science MOC]]
