@@ -16,5 +16,6 @@ Tags: #ComputerScience #SystemDesign
 ## [[Returning Job Results]]
 # [[Domain Name System (DNS)]]
 # [[Content Delivery Network (CDN)]]
+# [[Load Balancing]]
 
 [[Computer Science MOC]]

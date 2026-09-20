@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "cac6ad795dd376cd",
+            "id": "9bb55c92fed253a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "64a245c0ad5a2740",
+            "id": "cac6ad795dd376cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Content Delivery Network (CDN).md",
+                "file": "Notes/Load Balancing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Content Delivery Network (CDN)"
+              "title": "Load Balancing"
             }
           }
         ],
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#SystemDesign",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Content Delivery Network (CDN).md",
+                "file": "Notes/Load Balancing.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -225,9 +225,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2774b905072f401c",
+  "active": "cac6ad795dd376cd",
   "lastOpenFiles": [
     "MOCs/System Design MOC.md",
+    "Notes/Load Balancing.md",
+    "Attachments/load-balancer.png",
     "MOCs/Computer Science MOC.md",
     "Notes/Content Delivery Network (CDN).md",
     "Attachments/cdn-distributed-server.png",
@@ -256,12 +258,10 @@
     "Notes/What is a System Design?.md",
     "MOCs/Databases MOC.md",
     "Notes/Binary Search Tree Implementation.md",
-    "Notes/Hash Table Implementation.md",
     "Attachments/tree-breadth-first-search.jpg",
     "Attachments/tree-depth-first-search.webp",
     "Attachments/binary-search-tree.webp",
     "Attachments/binary-tree.webp",
-    "Attachments/post-order-traversal.png",
     "Excalidraw",
     "www.youtube.com",
     "Untitled.base",
