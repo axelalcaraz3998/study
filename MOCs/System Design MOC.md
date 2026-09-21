@@ -17,5 +17,6 @@ Tags: #ComputerScience #SystemDesign
 # [[Domain Name System (DNS)]]
 # [[Content Delivery Network (CDN)]]
 # [[Load Balancing]]
+# [[Reverse Proxy]]
 
 [[Computer Science MOC]]
