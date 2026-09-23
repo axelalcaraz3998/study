@@ -31,13 +31,13 @@ Layer 4 load balancing comes in multiple forms:
 # Layer 7 Load Balancer
 Layer 7 load balancing describes traffic distribution at the application layer of the OSI model, which is where human-application interaction occurs and where applications access network services.
 
-Layer 7 load balancers base their routing decisions on protocol-specific information, and information available on lower layers. They function as proxies by maitaining separate TCP connections with both the client and server.
+Layer 7 load balancers base their routing decisions on protocol-specific information, and information available on lower layers. They function as proxies by maintaining separate TCP connections with both the client and server.
 
 Layer 7 load balancing is slower than Layer 4 load balancing, since packets are reassembled and inspected. However, Layer 7 acceleration features such as caching, improved routing, and others generally compensate.
 
 Layer 7 load balancing occurs at the highest level within the OSI model. It primarily uses HTTP/HTTPS header content, message content, cookie information, and URLs to determine routing behaviors.
 - The load balancer negotiates a TLS connection with the client, enabling it to read the contents of the message itself.
-- The load balancer inspects each message's concents.
+- The load balancer inspects each message's contents.
 - The load balancer opens a new TCP connection with the backend server and routes the request in conjunction with a number of rules and algorithms.
 # References
 ## Articles

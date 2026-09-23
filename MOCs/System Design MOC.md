@@ -18,5 +18,6 @@ Tags: #ComputerScience #SystemDesign
 # [[Content Delivery Network (CDN)]]
 # [[Load Balancing]]
 # [[Reverse Proxy]]
+# [[API Gateway]]
 
 [[Computer Science MOC]]

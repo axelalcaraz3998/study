@@ -1,26 +1,26 @@
 Tags: #ComputerScience #SystemDesign 
 
-DNS is the phonebook of the internet. Human access information online through domain names. Web browsers interact through IP addresses. DNS translates domain names to IP addresses so browsers can load internet resources.
-# How does DNS work?
-The process of DNS resolution involves converting a hostname (e.g. www.example.com) into a copmuter-friendly IP address (e.g. 192.168.1.1). When a user wants to load a webpage, a translation must occur between what the user types into the browser and the machine-friendly address neccesary to locate the website.
+DNS is the phone book of the internet. Human access information online through domain names. Web browsers interact through IP addresses. DNS translates domain names to IP addresses so browsers can load internet resources.
+# How Does DNS Work?
+The process of DNS resolution involves converting a hostname (e.g. www.example.com) into a computer-friendly IP address (e.g. 192.168.1.1). When a user wants to load a webpage, a translation must occur between what the user types into the browser and the machine-friendly address necessary to locate the website.
 # Types of DNS Servers
-All DNS servers fall into one of four main categories. Recursive resolvers, root nameservers, Top-Level-Domain (TLD) nameservers, and authorative nameservers. In a typical DNS lookup, these four DNS servers work together to complete the task of delivering the IP address for a specified domain.
+All DNS servers fall into one of four main categories. Recursive resolvers, root nameservers, Top-Level-Domain (TLD) nameservers, and authoritative nameservers. In a typical DNS lookup, these four DNS servers work together to complete the task of delivering the IP address for a specified domain.
 ## DNS Recursive Resolver
-A recursive resolver is the first stop in a DNS query, it acts as a middleman between a client and a DNS nameserver. After receiving a DNS query from the web client, a recursive resolver will either respond with cached data, or send a request to a root nameserver, followed by another request to a TLD nameserver, and the one last request to an authorative nameserver. After receiving a response from the authorative nameserver containing the requested IP address, the recursive resolver then sends a response to the client.
+A recursive resolver is the first stop in a DNS query, it acts as a middleman between a client and a DNS nameserver. After receiving a DNS query from the web client, a recursive resolver will either respond with cached data, or send a request to a root nameserver, followed by another request to a TLD nameserver, and the one last request to an authoritative nameserver. After receiving a response from the authoritative nameserver containing the requested IP address, the recursive resolver then sends a response to the client.
 
-During this process, the recursive resolver will cache information received from authorative nameservers. When a client requests the IP address of a domain that was recently requested by another client, the resolver can circumvent the process of communicating with the nameservers, and just deliver the client the requested record from its cache.
+During this process, the recursive resolver will cache information received from authoritative nameservers. When a client requests the IP address of a domain that was recently requested by another client, the resolver can circumvent the process of communicating with the nameservers, and just deliver the client the requested record from its cache.
 ![[dns-recursive-resolver.png]]
 ## DNS Root Nameserver
 The 13 DNS root nameservers are known to every recursive resolver, and they are the first stop in a recursive resolver's quest for DNS records. A root server accepts a recursive resolver's query which includes a domain name, and the root nameserver responds by directing the recursive resolver to a TLD nameserver, based on the extension of that domain (.com, .net, .org, etc).
 ![[dns-root-nameserver.png]]
 ## TLD Nameserver
-A TLD nameserver maintains information for all the domain names that share a common domain extension. For example, a .com TLD nameserver contains information for every website that ends in .com. If a user was searching for "google.com", after receiving a response from a root nameserver, the recursive resolver would then send a query to a .com TLD server, which would respond by pointing to the authorative nameserver for that domain.
+A TLD nameserver maintains information for all the domain names that share a common domain extension. For example, a .com TLD nameserver contains information for every website that ends in .com. If a user was searching for "google.com", after receiving a response from a root nameserver, the recursive resolver would then send a query to a .com TLD server, which would respond by pointing to the authoritative nameserver for that domain.
 ![[dns-tld-nameserver.png]]
-## Authorative Nameserver
-When a recursive resolver receives a response from a TLD nameserver, that response will direct the resolver to an authorative nameserver. The authorative nameserver is usually the resolver's last step in the journey for an IP address. The authorative nameserver contains information specific to the domain name it servers and it can provide a recursive resolver with the IP address of the server found in the DNS A record, or if the domain has a CNAME record it will provide the recursive resolver with an alias domain, at which point the recursive resolver will have to perform a whole new DNS lookup to procure a record from an authorative nameserver.
+## Authoritative Nameserver
+When a recursive resolver receives a response from a TLD nameserver, that response will direct the resolver to an authoritative nameserver. The authoritative nameserver is usually the resolver's last step in the journey for an IP address. The authoritative nameserver contains information specific to the domain name it servers and it can provide a recursive resolver with the IP address of the server found in the DNS A record, or if the domain has a CNAME record it will provide the recursive resolver with an alias domain, at which point the recursive resolver will have to perform a whole new DNS lookup to procure a record from an authoritative nameserver.
 ![[dns-authoritative-nameserver.png]]
 # DNS Records
-DNS records are instructions that live in authorative DNS servers and provide information about a domain including what IP address is associated with that domain and how to handle requests for that domain. These records consist of a series of text files written in what is known as DNS syntax. All DNS records have a Time-To-Live (TTL) that indicates how often DNS servers will refresh that record.
+DNS records are instructions that live in authoritative DNS servers and provide information about a domain including what IP address is associated with that domain and how to handle requests for that domain. These records consist of a series of text files written in what is known as DNS syntax. All DNS records have a Time-To-Live (TTL) that indicates how often DNS servers will refresh that record.
 ## Common DNS Records
 - **A record**: The record that holds the IP address of a domain.
 - **AAAA record**: The record that contains the IPv6 address of a domain.
@@ -32,7 +32,7 @@ DNS records are instructions that live in authorative DNS servers and provide in
 - **SRV record**: Specifies a port for specific services.
 - **PTR record**: Provides a domain name in reverse-lookups.
 # DNS Caching
-The purpose of caching is to temporarily store data in a location that results in improvements in performance for data requests. DNS caching involves stroring data closer to the requesting client so that the DNS query can be resolved earlier and additional queries further down the DNS lookup chain can be avoided.
+The purpose of caching is to temporarily store data in a location that results in improvements in performance for data requests. DNS caching involves storing data closer to the requesting client so that the DNS query can be resolved earlier and additional queries further down the DNS lookup chain can be avoided.
 ## Browser DNS Caching
 Modern browsers are designed to cache DNS records for a set amount of time. The purpose here is obvious; the closer the DNS caching occurs to the web browser, the fewer processing steps must be taken in order to check the cache and make the correct requests to an IP address.
 ## Operating System DNS Caching
