@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[7427312157997493644,12978922320141492268]}",
+  "ignoredLints": "{\"context_hashes\":[4599848402716572742,12978922320141492268,7427312157997493644]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -897,11 +897,15 @@
   },
   "userDictionary": [
     "AAAA",
+    "AVL",
+    "BST",
     "CNAME",
     "ComputerScience",
     "DR",
+    "DSA",
     "GSLB",
     "IXPs",
+    "LR",
     "MOC",
     "MX",
     "Microgateway",
@@ -913,6 +917,7 @@
     "SystemDesign",
     "TLD",
     "TXT",
+    "ceil",
     "etc",
     "nameserver",
     "nameservers",

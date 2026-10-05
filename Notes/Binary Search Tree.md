@@ -23,7 +23,7 @@ This structure enables efficient operations for searching, insertion, and deleti
 - **Balanced Structure**: Balanced BSTs maintain a logarithmic height, ensuring efficient operations.
 # Disadvantages
 - **Not Self Balancing**: Unbalanced BST can lead to poor performance.
-- **Wors-Case Time Complexity**: In the worst case, BST can have a linear time complexity for searching and insertion.
+- **Worst-Case Time Complexity**: In the worst case, BST can have a linear time complexity for searching and insertion.
 - **Memory Overhead**: BST require additional memory to store pointers to child nodes.
 - **Not Suitable for Large Datasets**: BST can become inefficient for very large datasets.
 - **Limited Functionality**: BST only support searching, insertion, and deletion operations.

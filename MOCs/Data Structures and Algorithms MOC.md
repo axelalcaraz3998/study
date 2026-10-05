@@ -29,7 +29,7 @@ Tags: #ComputerScience #DSA
 ### [[Binary Tree Implementation]]
 ## [[Binary Search Tree]]
 ### [[Binary Search Tree Implementation]]
-## AVL Tree
+## [[AVL Tree]]
 ### AVL Tree Implementation
 ## Heap
 ### Heap Implementation

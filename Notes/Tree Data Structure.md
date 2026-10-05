@@ -25,11 +25,13 @@ Each node can have a maximum of two children.
 
 See [[Binary Tree]].
 ## Binary Search Tree
-For each node, the left child hasa lower value, and the right child has a higher value.
+For each node, the left child has a lower value, and the right child has a higher value.
 
 See [[Binary Search Tree]].
 ## AVL Tree
 A type of binary search tree that self-balances so that for every node, the difference in height between the left and right subtrees is at most one.
+
+See [[AVL Tree]].
 ## Heap
 Each parent node is always bigger or smaller than its child nodes.
 # Tree Traversal
