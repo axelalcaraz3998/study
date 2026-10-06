@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[4599848402716572742,12978922320141492268,7427312157997493644]}",
+  "ignoredLints": "{\"context_hashes\":[16635310505821336779,4599848402716572742,7427312157997493644,12978922320141492268]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -898,9 +898,11 @@
   "userDictionary": [
     "AAAA",
     "AVL",
+    "BFS",
     "BST",
     "CNAME",
     "ComputerScience",
+    "DFS",
     "DR",
     "DSA",
     "GSLB",

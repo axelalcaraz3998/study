@@ -34,6 +34,8 @@ A type of binary search tree that self-balances so that for every node, the diff
 See [[AVL Tree]].
 ## Heap
 Each parent node is always bigger or smaller than its child nodes.
+
+See [[Heap]].
 # Tree Traversal
 Tree traversal refers to the process of visiting nodes of a tree in a specific order.
 ## In-Order Traversal

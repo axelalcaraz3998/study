@@ -31,7 +31,7 @@ Tags: #ComputerScience #DSA
 ### [[Binary Search Tree Implementation]]
 ## [[AVL Tree]]
 ### AVL Tree Implementation
-## Heap
+## [[Heap]]
 ### Heap Implementation
 ## [[In-Order Traversal]]
 ## [[Pre-Order Traversal]]
