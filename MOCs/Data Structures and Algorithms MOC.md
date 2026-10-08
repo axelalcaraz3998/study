@@ -32,7 +32,7 @@ Tags: #ComputerScience #DSA
 ## [[AVL Tree]]
 ### AVL Tree Implementation
 ## [[Heap]]
-### Heap Implementation
+### [[Heap Implementation]]
 ## [[In-Order Traversal]]
 ## [[Pre-Order Traversal]]
 ## [[Post-Order Traversal]]

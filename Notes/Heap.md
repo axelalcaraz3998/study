@@ -16,7 +16,7 @@ A heap data structure is a complete binary tree that satisfies the heap property
 - **Lack of Flexibility**: Heaps are not very flexible, as it is designed to maintain a specific order of elements.
 - **Not Ideal For Searching**: While heap allows efficient access to the top element, it is not ideal for searching for a specific element in the heap.
 # Implementation
-See Heap Implementation.
+See [[Heap Implementation]].
 # References
 ## Articles
 - [Heap Data Structure](https://www.geeksforgeeks.org/dsa/heap-data-structure/)
