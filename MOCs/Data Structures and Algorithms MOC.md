@@ -21,6 +21,7 @@ Tags: #ComputerScience #DSA
 ## [[Selection Sort]]
 ## [[Merge Sort]]
 ## [[Quick Sort]]
+## [[Heap Sort]]
 # [[Search Algorithms]]
 ## [[Linear Search]]
 ## [[Binary Search]]
@@ -30,7 +31,6 @@ Tags: #ComputerScience #DSA
 ## [[Binary Search Tree]]
 ### [[Binary Search Tree Implementation]]
 ## [[AVL Tree]]
-### AVL Tree Implementation
 ## [[Heap]]
 ### [[Heap Implementation]]
 ## [[In-Order Traversal]]

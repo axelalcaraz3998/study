@@ -12,7 +12,7 @@ See [[Merge Sort]].
 # Quick Sort
 See [[Quick Sort]].
 # Heap Sort
-See Heap Sort.
+See [[Heap Sort]].
 # References
 ## Articles
 - [Sorting Algorithms](https://www.geeksforgeeks.org/dsa/sorting-algorithms/)

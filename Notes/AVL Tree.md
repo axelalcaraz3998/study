@@ -34,8 +34,6 @@ Occurs when a node is inserted into the left subtree of the right child node, wh
 # Disadvantages
 - Difficult to implement compared to a normal BST.
 - Less used compared to Red-Black Trees.
-# Implementation
-See AVL Tree Implementation.
 # References
 ## Articles
 - [AVL Tree Data Structure](https://www.geeksforgeeks.org/dsa/introduction-to-avl-tree/)
