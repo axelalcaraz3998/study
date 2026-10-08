@@ -17,9 +17,9 @@ API gateways provide these benefits:
 - **Microgateway**: Lightweight gateways deployed alongside individual services or teams. Ideal for large enterprises prioritizing autonomy and scale, though it requires coordination to maintain consistency.
 # References
 ## Articles
-- [What does an API gateway do?](www.redhat.com/en/topics/api/what-does-an-api-gateway-do)
+- [What does an API Gateway do?](https://www.redhat.com/en/topics/api/what-does-an-api-gateway-do)
 - [What is an API Gateway?](https://blog.postman.com/what-is-an-api-gateway/)
 ## Videos
-- [What is an API gateway?](www.youtube.com/watch?v=hWRRdICvMNs&pp=ygULYXBpIGdhdGV3YXk%3D)
+- [What is an API gateway?](https://www.youtube.com/watch?v=hWRRdICvMNs)
 
 [[System Design MOC]]
